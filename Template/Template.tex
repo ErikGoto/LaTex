@@ -1,0 +1,104 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[pdftex]{hyperref}
+\graphicspath{ {imagens/} }
+
+\begin{document}
+%
+\begin{titlepage} %iniciando a "capa"
+	\begin{center} %centralizar o texto abaixo
+		{\large Unicamp}\\[0.2cm] %0,2cm é a distância entre o texto dessa linha e o texto da próxima
+		{\large [Matéria]}\\[0.2cm] % o comando \\ "manda" o texto ir para próxima linha
+		{\large [Professor]}\\[3.2cm]
+		{\bf \huge TÍTULO}\\[0.2cm] 
+		{\bf \large Subtítulo}\\[4.9cm]
+		% o comando \bf deixa o texto entre chaves em negrito. O comando \huge deixa o texto enorme
+	\end{center} %término do comando centralizar
+	{\large Erik Yuji Goto}\\[10cm] % o comando \large deixa o texto grande
+	\begin{center}
+		{\large Campinas}\\[0.2cm]
+		{\large 2020}
+	\end{center}
+\end{titlepage} %término da "capa"
+
+
+\tableofcontents
+\newpage
+
+\section{Introdução}
+Lorem ipsum senectus nisi eros amet donec, etiam aliquet arcu congue ad, nisl neque curabitur diam dictumst. condimentum platea sem imperdiet platea proin diam, vivamus sapien elementum risus semper amet, aliquam ante dolor imperdiet congue. 
+
+Dolor diam rutrum ad venenatis donec aenean augue venenatis posuere, velit elementum lacinia erat tincidunt placerat varius enim, nulla inceptos \textbf{ipsum} in platea suscipit mi nulla. litora hendrerit sem iaculis non convallis donec interdum egestas condimentum ligula, consectetur \textit{habitasse} sem lacinia magna nibh praesent quisque mollis. 
+
+Dunc vivamus porttitor dictumst nunc ac ipsum nostra accumsan sociosqu, condimentum in a torquent curabitur nostra habitant purus quam metus, sagittis tristique dui inceptos dui ultrices nullam imperdiet. 
+
+
+\subsection{Subseção}
+	\begin{itemize}
+		\item Item
+		\item Item 
+		\item Item
+		\item Item		
+	\end{itemize}
+	
+Dolor diam rutrum ad venenatis donec aenean augue venenatis posuere
+
+	\begin{enumerate}
+		\item Item
+			\begin{enumerate}
+				\item Item
+				\item Item
+				\item Item
+			\end{enumerate}
+		\item Item
+			\begin{itemize}
+				\item Item
+				\item Item
+				\item Item
+			\end{itemize}
+	\end{enumerate}
+
+\newpage
+\section{Desenvolvimento}
+	\begin{figure}[h]
+		\includegraphics[width=8cm]{image.png}
+		\centering
+		\caption{Example of a parametric plot ($\sin (x), \cos(x), x$)}
+	\end{figure}
+
+Dolor diam rutrum ad venenatis donec aenean augue venenatis posuere, velit elementum lacinia erat tincidunt placerat varius enim, nulla inceptos \textbf{ipsum} in platea suscipit mi nulla. litora hendrerit sem iaculis non convallis donec interdum egestas condimentum ligula, consectetur \textit{habitasse} sem lacinia magna nibh praesent quisque mollis. 
+
+Dunc vivamus porttitor dictumst nunc ac ipsum nostra accumsan sociosqu, condimentum in a torquent curabitur nostra habitant purus quam metus, sagittis tristique dui inceptos dui ultrices nullam imperdiet. 
+
+	\begin{wrapfigure}{l}{0.6\textwidth}
+		\begin{center}
+			\includegraphics[width=0.6\textwidth]{image.png}
+		\end{center}
+		\caption{Birds}
+	\end{wrapfigure}
+
+Dolor diam rutrum ad venenatis donec aenean augue venenatis posuere, velit elementum lacinia erat tincidunt placerat varius enim, nulla inceptos \textbf{ipsum} in platea suscipit mi nulla. litora hendrerit sem iaculis non convallis donec interdum egestas condimentum ligula, consectetur \textit{habitasse} sem lacinia magna nibh praesent quisque mollis. 
+
+Dunc vivamus porttitor dictumst nunc ac ipsum nostra accumsan sociosqu, condimentum in a torquent curabitur nostra habitant purus quam metus, sagittis tristique dui inceptos dui ultrices nullam imperdiet. 
+
+Dunc vivamus porttitor dictumst nunc ac ipsum nostra accumsan sociosqu, condimentum in a torquent curabitur nostra habitant purus quam metus, sagittis tristique dui inceptos dui ultrices
+
+Dunc vivamus porttitor dictumst nunc ac ipsum nostra accumsan sociosqu, condimentum in a torquent curabitur nostra habitant purus quam metus, sagittis tristique dui inceptos dui ultrices
+
+\newpage
+\section{Conclusão}
+Dolor diam rutrum ad venenatis donec aenean augue venenatis posuere, velit elementum lacinia erat tincidunt placerat varius enim, nulla inceptos \textbf{ipsum} in platea suscipit mi nulla. litora hendrerit sem iaculis non convallis donec interdum egestas condimentum ligula, consectetur \textit{habitasse} sem lacinia magna nibh praesent quisque mollis.
+
+	\begin{center}
+		\large
+		$ s_{2} - s_{1} = \int(\frac{\delta Q}{T})_{b} + \sigma_{12} \Rightarrow S_{2} \geq S_{1}$
+	\end{center}
+
+Hendrerit sem iaculis non convallis donec interdum egestas condimentum ligula, consectetur \textit{habitasse} sem lacinia magna nibh praesent quisque mollis.
+
+\end{document}

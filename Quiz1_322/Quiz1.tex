@@ -1,0 +1,155 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage[pdftex]{hyperref}
+\graphicspath{ {imagens/} }
+\usepackage{xcolor}
+% Definindo novas cores
+\definecolor{verde}{rgb}{0.25,0.5,0.35}
+\definecolor{jpurple}{rgb}{0.5,0,0.35}
+
+% Configurando layout para mostrar codigos Java
+\usepackage{listings}
+\lstset{
+	language=Java,
+	basicstyle=\ttfamily\small,
+	keywordstyle=\color{jpurple}\bfseries,
+	stringstyle=\color{red},
+	commentstyle=\color{verde},
+	morecomment=[s][\color{blue}]{/**}{*/},
+	extendedchars=true,
+	showspaces=false,
+	showstringspaces=false,
+	numbers=left,
+	numberstyle=\tiny,
+	breaklines=true,
+	backgroundcolor=\color{cyan!10},
+	breakautoindent=true,
+	captionpos=b,
+	xleftmargin=0pt,
+	tabsize=4
+}
+\pagestyle{empty}
+
+\begin{document}
+\begin{titlepage} %iniciando a "capa"
+	\begin{center} %centralizar o texto abaixo
+		{\large Unicamp}\\[0.2cm] %0,2cm é a distância entre o texto dessa linha e o texto da próxima
+		{\large MC322}\\[0.2cm] % o comando \\ "manda" o texto ir para próxima linha
+		{\large Prof. Esther Colombini}\\[3.2cm]
+		{\bf \huge Programação Orientada a Objetos - Quiz 1}\\[5.1cm] % o comando \bf deixa o texto entre chaves em negrito. O comando \huge deixa o texto enorme
+	\end{center} %término do comando centralizar
+	{\large Erik Yuji Goto}\\[0.5cm] % o comando \large deixa o texto grande
+	{\large RA: 234009}\\[10cm]
+	\begin{center}
+		{\large Campinas}\\[0.2cm]
+		{\large 2020}
+	\end{center}
+\end{titlepage} %término da "capa"
+
+\newpage
+\textbf{1.} (b) int compute(int a, int b)\\
+
+\textbf{2.} (b) O código está incorreto\\
+(d) O atributo i de Prova está inacessível no main\\
+
+\textbf{3.}
+\begin{lstlisting}
+	public class numJava {
+		/*Declaramos os metodos estaticos para que seja possivel usa-los sem precisar instanciar objetos de numJava*/
+		public static int somaInt(int a, int b){
+			return a + b;
+		}
+		
+		public static int subInt(int a, int b){
+			return a - b;
+		}
+		
+		public static int somaString(String a, String b){
+			return Integer.parseInt(a) + Integer.parseInt(b);
+		}
+		public static int subString(String a, String b){
+			return Integer.parseInt(a) - Integer.parseInt(b);
+		}
+	}
+\end{lstlisting}
+
+\textbf{4.} Qualquer programa em Java passa por cinco passos até que ocorra sua efetiva execução:
+	\begin{itemize}
+		\item Edição(do código fonte);
+		\item Compilação(código fonte para Bytecode);
+		\item Carregamento(carregar o .class na memória);
+		\item Verificação(Bytecode);
+		\item Execução(código fonte para Bytecode).
+	\end{itemize}
+Na execução a Máquina Virtual Java(JVM) executa as instruções dos Bytecodes. Essa execução ocorre combinando interpretação e compilação Just-in-time(JIT).\\
+
+\textbf{5.} \\
+(a) Seu valor, uma vez inicializado, não pode ser modificado. \textbf{(F)}\\
+(b) São declaradas com a palavra-chave static. \textbf{(V)}\\
+(c) Pode ser alterada dentro de um método de instância. \textbf{(V)}\\
+(d) Existe somente uma cópia de cada variável, independente do número de objetos. \textbf{(V)}\\
+
+\textbf{6.} (c) A classe não contém nenhum construtor declarado \\
+
+\textbf{7.} \begin{lstlisting}
+	private Classe varClasse;
+\end{lstlisting}
+Nesta linha declaramos apenas a classe \textbf{varClasse} do tipo \textbf{Classe}. É como um "aviso" para o sistema de que existe uma classe do tipo \textbf{Classe} e podemos instanciá-la a qualquer momento.\\
+\begin{lstlisting}
+	private Classe varClasse = new Classe() ;
+\end{lstlisting}
+Já neste trecho estamos declarando uma Classe e ao mesmo tempo \textit{instanciando} a mesma. Dessa maneira, já podemos acessar as variáveis e métodos da classe. Não é necessário chamar o construtor posteriormente\\
+
+\textbf{8.} \textbf{Atributos de Instância: } Estes podem ser de qualquer tipo(int, boolean, String, etc) e também podem ser objetos de outra classe. 
+Comumente, são inicializados no início do código e declarados da seguinte forma;
+\begin{lstlisting}
+	<visibilidade> tipo Nome;
+\end{lstlisting}
+
+\textbf{Atributos de Classe: }Assim como as variáveis de instância podem ser de qualquer tipo básico. Entretanto, esse tipo de variável tem uma característica única: elas são criadas uma única vez para a classe como um todo, e não para cada objeto. Portanto, as variáveis de classe existem assim que a classe é carregada na memória. 
+
+São úteis para contar a quantidade de objetos da classe criados, ou para calcular o valor médio de uma determinada propriedade. E declaradas da seguinte forma;
+\begin{lstlisting}
+	<visibilidade> static tipo Nome;
+\end{lstlisting}
+
+\textbf{Variáveis Locais: }São variáveis que só podem ser acessadas localmente. Só podem ser usadas dentro do algoritmo que foram declaradas.\\
+
+\textbf{Parâmetros: }Os parâmetros são tipos de variáveis que auxiliam no funcionamento de métodos. São variáveis temporárias que serão utilizadas dentro das funções que estas são chamadas. EX:\\
+
+\begin{lstlisting}
+	public void NomeClasse(int parametro1, String parametro2, boolean parametro3){
+		if (parametro3 == true){
+			x = parametro1;
+			System.out.println(parametro2);	
+		}
+	}
+\end{lstlisting}
+
+\textbf{9.} \textbf{Public: }Um elemento definido como \textit{public} pode ser acessado por qualquer objeto de qualquer classe. É a classe que não restringe nenhum acesso.\\
+
+\textbf{Private: }Já elementos com \textit{private} só podem ser acessados por outros elemtos dentro da classe em que o elemento private foi declarado. É usado para para atributos e métodos internos da classe.\\
+
+\textbf{Protected: }A visibilidade \textit{protected} é o meio termo entre as duas outras. Ela só pode ser acessada por \textbf{classes} que \textbf{herdam} da classe onde o \textit{protected} foi declarado.\\
+
+Segundo o \textit{princípio do menor privilégio:} a ideia é \textbf{atribuir privilégios} a determinados elementos apenas quando necessário para executar determinada tarefa. 
+Portanto, a visibilidade contribui para limitar os acessos que cada classe pode ter, ou conceder. Essa funcionalidade é muito útil para o conceito de \textit{encapsulamento} na programação orientada a objetos. 
+
+O encapsulamento permite tornar os códigos flexíveis e reutilizáveis para novas implementações; combinado com o princípio do menor privilégio podemos controlar o acesso a atributos e métodos.
+
+\textbf{10.} 1001\\
+
+\textbf{11.}\\ (a) cada elemento do array é uma referência para outro array\\
+(b) representam um estrutura de dados com pelo menos duas dimensões\\
+(c) pode ser utilizado para representar valores armazenados em uma tabela organizada em linhas e colunas\\
+(d) para um array bidimensional, as linhas não precisam ter o mesmo tamanho\\
+
+\textbf{12.} (b) O código está incorreto\\
+(c) Prova11 é um tipo de Prova1\\
+(d) O atributo i está inacessível em Prova11\\
+
+\end{document}
