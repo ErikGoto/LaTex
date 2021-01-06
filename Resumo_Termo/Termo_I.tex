@@ -33,6 +33,30 @@
 \tableofcontents
 \newpage
 
+\section{Passo a Passo para Resolulção de Problemas}
+	\begin{enumerate}
+		\item Sistema Fechado ou Volume de Controle ?	
+			\begin{itemize}
+				\item Se sistema fechado, o processo ocorre de forma discreta (Q, W), em taxa ($ \dot{Q}, \dot{W} $) ou em ciclo?
+				\item Se VC, opera em regime permanente ou transiente?
+			\end{itemize}
+		\item Esboçar o sistema fechado ou VC e indicar suas interações (trabalho, calor, massa)
+		na fronteira com a vizinhança; indicar as propriedades conhecidas.
+		\item Representar os estados percorridos pelo fluido em um diagrama de estado.
+		\item Aplicar e simplificar as equações de balanço (massa, energia, entropia).
+		\item Transformar as equações de balanço de forma a envolverem propriedades e
+		interações conhecidas e procuradas
+			\begin{itemize}
+				\item Se a substância muda ou pode mudar de fase, buscar as propriedades dos estados fornecidos
+				nas tabelas dessa substância (interpolar, se necessário).
+				\item Se for gás ideal, usar as equações do modelo de gás ideal e decidir entre modelo com calores
+				específicos constantes ou uso da tabela A-22 (ar como gás ideal).
+				\item Se for substância incompressível, usar as equações desse modelo e o valor do calor específico.
+			\end{itemize}
+		\item Resolver as equações nas incógnitas do problema.
+	\end{enumerate}
+
+\newpage
 \section{Capítulo 1 - Conceitos Introdutórios e Definições}
 
 \subsection{A Linguagem da Termodinâmica}
@@ -863,17 +887,65 @@ Casos particulares:
 	\end{center}
 
 \subsection{Eficiência Isentrópica}
+\textbf{Eficiência de um Dispositivo de Conversão de Energia}\\
+É definida como a razão entre a energia convertida no dispositivo real e a convertida em um dispositivo ideal, obtendo sempre um número inferior a 1.
 
+Assim, uma turbina nunca poderia gerar mais potência que a turbina ideal nas
+mesmas condições.
 
+Um compressor nunca poderia consumir menos potência que o compressor ideal nas
+mesmas condições.
 
+A razão disso são as irreversibilidades, internas e externas, presentes nas máquinas
+reais.\\
 
+\textbf{Eficiência Isentrópica de Turbinas Térmicas}
+Qualquer perda de calor da turbina para a vizinhança, além de
+irreversível, levaria a uma perda de eficiência na conversão de
+entalpia em trabalho.
+	\begin{center}
+		\large
+		$ n_t = \frac{\dot{W}/\dot{m}}{(\dot{W}/\dot{m})_s} = \frac{h_1 - h_2}{h_1 - h_{2s}}$ $ (\sim0.7 - 0.9) $
+	\end{center}
+As irreversibilidades internas fazem com que o fluido saia mais
+quente ($ h_2 > h_{2s} $).
+	\begin{figure}[h]
+		\includegraphics[width = 8cm]{hs.png}
+		\centering
+		\caption{Diagrama h-s}
+	\end{figure}
 
+\textbf{Eficiência Isentrópica de Bocais}\\
+Bocais são dispositivos usados para converter energia de pressão em
+energia cinética. São comumente usados em propulsão (aviões,
+foguetes, etc). Essa conversão deve, idealmente, ocorrer sem perda de
+calor para a vizinhança.
+	\begin{center}
+		\large
+		$ n_{bocal} = \frac{V_2^2/2}{V^2_{2s}/2} $ 
+		$ (>\sim 0.95) $
+	\end{center}
+	\begin{figure}[h]
+		\includegraphics[width = 8cm]{hss.png}
+		\centering
+		\caption{Diagrama h-s}
+	\end{figure}
 
-
+\textbf{Eficiência Isentrópica de Compressores e Bombas}\\
+Estas máquinas convertem energia mecânica em energia de
+pressão. Essa conversão deve ocorrer sem perda de calor para
+a vizinhança.
+	\begin{center}
+		\large
+		$ n_c = \frac{(\dot{W}/\dot{m})_s}{\dot{W/\dot{m}}} = \frac{h_{2s} - h_1}{h_2 - h_1}$ $ (\sim0.75 - 0.85) $
+	\end{center}
 
 \newpage
 \section{Interpolação Linear}
-
+	\begin{center}
+		\large
+		$ y = y_0 + (y_1 - y_0)\frac{x - x_0}{x_1 - x_0} $
+	\end{center}
 
 
 

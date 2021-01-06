@@ -1,30 +1,31 @@
 \babel@toc {brazilian}{}
-\contentsline {section}{\numberline {1}Capítulo 1 - Conceitos Introdutórios e Definições}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}A Linguagem da Termodinâmica}{2}{subsection.1.1}%
-\contentsline {paragraph}{Propriedades, Estado, Processo, Ciclo, Equilíbrio}{2}{section*.2}%
-\contentsline {paragraph}{Propriedades Extensivas e Intensivas}{3}{section*.3}%
-\contentsline {subsection}{\numberline {1.2}Propriedades PVT}{3}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Capítulo 2 - Energia e Primeira Lei da Termodinâmica}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Trabalho e Energia em Sistemas Mecânicos}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Energia Interna, Calor e Conservação de Energia em Sistemas Fechados}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Aplicações da 1ª Lei da Termodinâmica}{6}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Capítulo 3 - Propriedades Termodinâmicas}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Diagramas de Estado e Tabelas de Propriedades}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Modelos para Descrição de Propriedades}{9}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Capítulo 4 - Análise de Volume de Controle}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Conservação de Massa em Volume de Controle}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Conservação de Energia em Volume de Controle}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Aplicações das Leis de Conservação da Massa e da Energia em Regime Permanente}{11}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Aplicações da Conservação da Massa e Energia em Regime Transiente}{11}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Capítulo 5 - Segunda Lei da Termodinâmica}{12}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Segunda Lei da Termodinâmica}{12}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}A Melhor Máquina Térmica}{13}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Ciclo de Carnot}{16}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Capítulo 6 - Entropia}{17}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Entropia: Definição Macroscópica}{17}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Modelos para Cálculo de Entropia}{17}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Balanço de Entropia para Sistema Fechado}{18}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Balanço de Entropia para Volume de Controle}{19}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Escoamento Isentrópico}{19}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Eficiência Isentrópica}{22}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Interpolação Linear}{23}{section.7}%
+\contentsline {section}{\numberline {1}Passo a Passo para Resolulção de Problemas}{2}{section.1}%
+\contentsline {section}{\numberline {2}Capítulo 1 - Conceitos Introdutórios e Definições}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}A Linguagem da Termodinâmica}{3}{subsection.2.1}%
+\contentsline {paragraph}{Propriedades, Estado, Processo, Ciclo, Equilíbrio}{3}{section*.2}%
+\contentsline {paragraph}{Propriedades Extensivas e Intensivas}{4}{section*.3}%
+\contentsline {subsection}{\numberline {2.2}Propriedades PVT}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Capítulo 2 - Energia e Primeira Lei da Termodinâmica}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Trabalho e Energia em Sistemas Mecânicos}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Energia Interna, Calor e Conservação de Energia em Sistemas Fechados}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Aplicações da 1ª Lei da Termodinâmica}{7}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Capítulo 3 - Propriedades Termodinâmicas}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Diagramas de Estado e Tabelas de Propriedades}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Modelos para Descrição de Propriedades}{10}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Capítulo 4 - Análise de Volume de Controle}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Conservação de Massa em Volume de Controle}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Conservação de Energia em Volume de Controle}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Aplicações das Leis de Conservação da Massa e da Energia em Regime Permanente}{12}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Aplicações da Conservação da Massa e Energia em Regime Transiente}{12}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Capítulo 5 - Segunda Lei da Termodinâmica}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Segunda Lei da Termodinâmica}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}A Melhor Máquina Térmica}{14}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Ciclo de Carnot}{17}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Capítulo 6 - Entropia}{18}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Entropia: Definição Macroscópica}{18}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Modelos para Cálculo de Entropia}{18}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Balanço de Entropia para Sistema Fechado}{19}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Balanço de Entropia para Volume de Controle}{20}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Escoamento Isentrópico}{20}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Eficiência Isentrópica}{23}{subsection.7.6}%
+\contentsline {section}{\numberline {8}Interpolação Linear}{24}{section.8}%
