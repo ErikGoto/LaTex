@@ -1,0 +1,57 @@
+\babel@toc {brazilian}{}
+\contentsline {section}{\numberline {1}Estatística Descritiva}{3}{section.1}%
+\contentsline {paragraph}{Estrutura básica de dados - Variável:}{3}{section*.2}%
+\contentsline {subsection}{\numberline {1.1}Medidas Resumo(estatísticas sumárias)}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Média Aritmética}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Mediana}{3}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Moda}{3}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Desvio}{4}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.5}Coeficiente de Variação}{4}{subsubsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.2}Quartis}{4}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Intervalo Interquartílico}{5}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Esquema dos 5 números e Boxplot}{5}{subsubsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.3}Análise Descritiva Bivariada}{6}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Coeficiente de Correlação}{6}{subsubsection.1.3.1}%
+\contentsline {section}{\numberline {2}Probabilidade}{6}{section.2}%
+\contentsline {subsubsection}{\numberline {2.0.1}Probabilidade de União de Eventos}{6}{subsubsection.2.0.1}%
+\contentsline {subsubsection}{\numberline {2.0.2}Evento Complementar}{7}{subsubsection.2.0.2}%
+\contentsline {subsection}{\numberline {2.1}Regras de Contagem}{7}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Regra da adição}{7}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Regra da multiplicação}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Permutação}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Arranjo}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Combinação}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Probabilidade Condicional}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Independência}{8}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Teorema das Probabilidades Totais}{8}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Teorema de Bayes}{8}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Variável Aleatória}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Distribuição de probabilidade}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Função de Distribuição Acumulada}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Esperança}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Variância}{10}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Mediana e Moda}{10}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Principais Modelos Discretos}{10}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Uniforme Discreta}{10}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Bernoulli}{10}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Modelo Binomial}{11}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Distribuição Geométrica}{11}{subsubsection.3.6.4}%
+\contentsline {subsubsection}{\numberline {3.6.5}Hipergeométrica}{12}{subsubsection.3.6.5}%
+\contentsline {subsubsection}{\numberline {3.6.6}Distribuição de Poisson}{12}{subsubsection.3.6.6}%
+\contentsline {section}{\numberline {4}Variáveis Aleatórias Contínuas}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Função de Distribuição Acumulada}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Esperança}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Variância}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Distribuição Uniforme}{14}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Distribuição Acumulada}{14}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Esperança e Variância}{14}{subsubsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.5}Distribuição Exponencial}{14}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Distribuição Acumulada}{15}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Esperança e Variância}{15}{subsubsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.6}Distribuição Normal - Gaussiana}{15}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Esperança e Variância}{15}{subsubsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.2}Distribuição Normal Padrão}{15}{subsubsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.3}Simetria da Distribuição Normal}{15}{subsubsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.7}Aproximação Normal para uma Binomial}{16}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Distribuição Amostral}{17}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Teorema do Limite Central}{17}{subsection.5.1}%

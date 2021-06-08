@@ -1,0 +1,35 @@
+\BOOKMARK [1][-]{section.1}{Conceitos Fundamentais}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Tens\343o}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Tens\343o de Deforma\347\343o}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Tens\343o x Deforma\347\343o}{subsection.1.1}% 4
+\BOOKMARK [1][-]{section.2}{Est\341tica dos Fluidos}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Lei de Stervin}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Teorema de Transporte de Reynolds}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Conserva\347\343o de Massa}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Conserva\347\343o de Quantidade de Movimento - Referencial Inercial}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Conserva\347\343o de Quantidade de Movimento - Referencial N\343o Inercial}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.4}{Conserva\347\343o do Momento da Quantidade de Movimento}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.5}{Conserva\347\343o de Energia}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.6}{Trabalho da Bomba}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.7}{Eq. de Bernoulli}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{An\341lise Dimensional}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Prot\363tipo x Modelo}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Dimens\365es de Algumas Grandezas F\355sicas}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Teorema dos \040de Buckingham}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Matriz Dimensional}{subsection.4.3}% 19
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Formando os 's}{subsection.4.3}% 20
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Cuidados}{subsection.4.3}% 21
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Procedimento}{subsection.4.3}% 22
+\BOOKMARK [1][-]{section.5}{Semelhan\347a}{}% 23
+\BOOKMARK [1][-]{section.6}{Escoamento Interno}{}% 24
+\BOOKMARK [2][-]{subsection.6.1}{Comprimento de Desenvolvimento}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.2}{Perfil de Velocidade num Tubo}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.3}{Coeficiente de Energia Cin\351tica}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.4}{Introdu\347\343o Perda de Carga Localizada e Distribu\355da}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.5}{Perda de Carga Distribu\355da}{section.6}% 29
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Rugosidade Relativa}{subsection.6.5}% 30
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Diagrama de Moody}{subsection.6.5}% 31
+\BOOKMARK [2][-]{subsection.6.6}{Perda de Carga Localizada}{section.6}% 32
+\BOOKMARK [3][-]{subsubsection.6.6.1}{Contra\347\365es e Expans\365es}{subsection.6.6}% 33
+\BOOKMARK [3][-]{subsubsection.6.6.2}{Curvas, V\341lvulas, etc}{subsection.6.6}% 34
+\BOOKMARK [3][-]{subsubsection.6.6.3}{Entradas e Sa\355das}{subsection.6.6}% 35

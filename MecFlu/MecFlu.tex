@@ -1,0 +1,479 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage[pdftex]{hyperref}
+\graphicspath{ {imagens/} }
+
+\begin{document}
+%
+\begin{titlepage} %iniciando a "capa"
+	\begin{center} %centralizar o texto abaixo
+		{\large Unicamp}\\[0.2cm] %0,2cm é a distância entre o texto dessa linha e o texto da próxima
+		{\large Mecânica dos Fluidos}\\[0.2cm] % o comando \\ "manda" o texto ir para próxima linha
+		{\large Mazza}\\[3.2cm]
+		{\bf \huge Mecânica dos Fluidos}\\[0.2cm] 
+		{\bf \large I}\\[4.9cm]
+		% o comando \bf deixa o texto entre chaves em negrito. O comando \huge deixa o texto enorme
+	\end{center} %término do comando centralizar
+	{\large Erik Yuji Goto}\\[10cm] % o comando \large deixa o texto grande
+	\begin{center}
+		{\large Campinas}\\[0.2cm]
+		{\large 2021}
+	\end{center}
+\end{titlepage} %término da "capa"
+
+
+\tableofcontents
+\newpage
+
+\section{Conceitos Fundamentais}
+	\textbf{Fluido:} É uma substância que se deforma continuamento quando submetida a uma tensão de cisalhamento, não importa o quão pequena essa tensão.\\
+	
+	\textbf{Composição do fluido:} Inúmeras moléculas em movimento. Vamos tratar o fluido como contínuo.\\
+	
+	\textbf{Referencial Lagrangiano:} Acompanha elementos de massa identificáveis.\\
+	
+	\textbf{Referencial Euleriano:} Focaliza a atenção sobre as propriedades do escoamento num determinado ponto do espaço como função do tempo.
+	
+\subsection{Tensão}
+	\textbf{Tensão:} Força de superfície com duas componentes:
+	\begin{itemize}
+		\item Normal, também chamada de pressão;
+		\item Cisalhamento, única que causa deformação no fluido.
+	\end{itemize}
+\subsubsection{Tensão de Deformação}
+	É a variação de um ponto N em relação ao tempo.
+	É um fenômeno local.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/tensao}
+		\caption{Tensão de Deformação}
+		\label{fig:tensao}
+	\end{figure}
+\subsubsection{Tensão x Deformação}
+	Para fluidos Isaac Newton propôs:
+	\begin{center}
+		\Large
+		$ \tau = \frac{d\mu}{dy} $
+	\end{center}
+	$\mu[\frac{N.s}{m^2}]$ viscosidade dinâmica\\
+	
+	\textbf{Fluido Newtoniano:} A viscosidade só poderá ser alterada com a temperatura;
+	A relação $\tau = \frac{\mu du}{dy}$ é um modelo.
+	
+	\textbf{Cisalhamento Simples:} É quando a deformação é constante:
+	\begin{center}
+		\Large
+		$
+		\frac{du}{dy} = cte \rightarrow u = a.y+b
+		$
+	\end{center}
+
+	\textbf{Condição de não deslizamento:} O fluido não desliza na interface com uma fronteira sólida, mas fica derido a ela.\\
+	
+	\textbf{Tensão Superficial:} É a força por unidade de comprimento devido à atração molecular ao longo de qualquer linha de interface.
+	
+\newpage
+\section{Estática dos Fluidos}
+	Trata do estado de forças no fluido na ausência de movimento relativo entre suas partículas.
+	Implica na existência de somente tensões normais.
+\subsection{Lei de Stervin}
+	"A diferença de pressão entre dois pontos de massa de um líquido em equilíbrio é igual à diferença de nível entre os pontos, multiplicada pelo peso específico do líquido". Temos isso para \textbf{um mesmo fluido e mesma altura}.\\
+	
+	\textbf{Peso devido a coluna de água:}
+	\begin{center}
+		\Large
+		$
+		(P_{B} - P_{A}) = \varphi .g.h
+		$
+	\end{center}
+
+\newpage
+\section{Teorema de Transporte de Reynolds}
+\subsection{Conservação de Massa}
+	\begin{center}
+		\Large
+		$
+		0 = \frac{\delta}{\delta t} \int_{VC}\varphi dV + \int_{SC} \varphi \vec{V} \vec{n} dA 
+		$
+	\end{center}
+	O termo $\vec{V}.\vec{n}$
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/rey}
+		\caption{Conservação Massa}
+		\label{fig:rey}
+	\end{figure}
+	
+\subsection{Conservação de Quantidade de Movimento - Referencial Inercial}
+	\begin{center}
+		\Large
+		$
+		\frac{\delta}{\delta t}\int_{vc} \vec{V}.\varphi dV + \int_{sc}\vec{V}. \varphi. \vec{V_{r}}.\vec{n}dA = \int_{vc} \varphi.\vec{g}dV + \int_{sc}(-\vec{n}.P)dA+\int_{sc}\vec{n}.\tau dA + \vec{F_{mec}}
+		$
+	\end{center}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{imagens/eq}
+	\caption{Quantidade de Movimento}
+	\label{fig:eq}
+\end{figure}
+	Por ser uma equação vetorial ela pode ser decomposta nas três direções (\textit{x, y, z})
+
+\subsection{Conservação de Quantidade de Movimento - Referencial Não Inercial}
+	\begin{center}
+		\Large
+		$
+		\frac{\delta}{\delta t}\int_{vc}\textcolor{blue}{\vec{v_{xyz}}}.\varphi dV + \int_{vc}\textcolor{blue}{\vec{v_{xyz}}}\varphi.\vec{V_{r}} .\vec{n}dA = \sum F_{ext} - \int_{vc} \textcolor{red}{\vec{a_{ref}}} .\varphi dV   
+		$
+	\end{center}
+
+\subsection{Conservação do Momento da Quantidade de Movimento}
+	\begin{center}
+		\Large
+		$
+		\int_{sc}(\vec{r_{xyz}}\times \vec{v_{xyz}})\varphi .\vec{V_{r}}.\vec{n} dA = \dot{T}_{eixo} - \int_{sc} \varphi .(\vec{r_{xyz}}\times \vec{a_{rel}})dV
+		$\\
+		Aceleração relativa:\\
+		$
+		\vec{a_{rel}} = \vec{\omega} \times (\vec{\omega} \times \vec{r_{xyz}}) + 2\vec{\omega} \times \vec{V_{xyz}}
+		$
+		
+	\end{center}
+
+\subsection{Conservação de Energia}
+	\begin{center}
+		\Large
+		$
+		\dot{Q_{vc}} - \dot{W_{vc}} = \frac{\delta}{\delta t} \int_{vc} \varphi (u + \frac{V_I^2}{2} + g.z)dV+ \int_{sc}(\textcolor{red}{u + P.v} + \frac{V_I^2}{2}+g.z)\varphi \vec{V_r}.\vec{n}dA
+		$
+	\end{center}
+	\textcolor{red}{*} Entalpia - h
+
+\subsection{Trabalho da Bomba}
+	O papel da bomba é transferir energia para os termos mecânicos e também para as irreversibilidades.
+	\begin{center}
+		\Large
+		$
+		w_{shaft} = (\frac{V_I^2}{2} + g.z + \frac{P}{\varphi})_{in} - [(\frac{V_I^2}{2} + g.z + \frac{P}{\varphi} )_{out} + w_{irr}]
+		$ ou\\
+		$
+		\frac{w_{shaft}}{g} = (\frac{V_I^2}{2g} + z + \frac{P}{\varphi .g})_{in} - (\frac{V_I^2}{2g} + z + \frac{P}{\varphi .g} )_{out} - h_{irr}
+		$
+	\end{center}
+
+\subsection{Eq. de Bernoulli}
+	Considerando um processo:
+	\begin{itemize}
+		\item Reversível $\longrightarrow s_{ger} = 0$;
+		\item Sem transferência de Calor $\longrightarrow s_{in} = s_{out}$;
+		\item Sem realização de trabalho $\longrightarrow W_{shaft} = 0$.
+	\end{itemize}
+
+	\begin{center}
+		\Large
+		$
+		0 = (\frac{V_I^2}{2} + g.z + u + \frac{P}{\varphi})_{in} - (\frac{V_I^2}{2} + g.z + u + \frac{P}{\varphi} )_{out}
+		$
+	\end{center}
+
+\section{Análise Dimensional}
+\subsection{Protótipo x Modelo}
+	\textbf{Protótipo:}
+	Tamanho real, custo elevado e nem sempre é possível de ser realizado;\\
+	
+	\textbf{Modelo:}
+	Tamanho escalado, custo reduzido, mas necessita de formas de inferir os resultados ao tamanho real;
+
+\subsection{Dimensões de Algumas Grandezas Físicas}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{imagens/dim}
+	\caption{Dimensões}
+	\label{fig:dim}
+\end{figure}
+
+\subsection{Teorema dos $\pi$ de Buckingham}
+	O Teorema dos $\pi$ diz quantas variáveis adimensionais são requeridas para um dado conjunto de variáveis dimensionais de um dado problema.
+\subsubsection{Matriz Dimensional}
+	É formada listando os expoentes (a, b, c, d, etc) das dimensões primárias (M, L e T) de cada variável.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\linewidth]{imagens/mat}
+		\caption{Matriz Dimensional}
+		\label{fig:mat}
+	\end{figure}
+	O propósito da matriz dimensional é checar a independência linear das variáveis dimensionais em termos das dimensões primárias escolhidas (M, L, T).
+	
+	
+	Isto é feito determinando-se o ‘\textbf{rank}’ da matriz.
+	
+	O rank é o \textbf{determinante} de todas possíveis submatrizes quadradas começando-se pela maior até encontrar uma cujo determinante é não nulo.\\
+
+	A quantidade de parâmetros adimensionais necessário para expressar a dependência funcional será de n – r variáveis (r é o rank):
+	\begin{center}
+		\Large
+		$
+		\pi_{1} = f(\pi_{2},\pi_{3},\pi_{4}...\pi_{n-r})
+		$
+	\end{center}
+\subsubsection{Formando os $\pi$'s}
+	Os $\pi$’s são formados escolhendo-se uma base de repetição
+	A base contém ‘r’ variáveis dimensionais do total de ‘n’ que contenha entre elas as ‘r’ dimensões.\\
+	
+	As ‘r’ variáveis da base não podem ser linearmente dependentes uma das outras. A sub-matriz dos seus expoentes dimensionais tem que ser não nulo.
+\subsubsection{Cuidados}
+	\begin{itemize}
+		\item Evitar variáveis que possam serem derivadas da outra por uma produto de potências:
+			\begin{itemize}
+				\item Combinação entre comprimento, L, velocidade LT-1 e aceleração LT-2 é linearmente dependente.
+				Pode-se combiná-las de forma que o resultado seja adimensional!
+				\item Combinação entre comprimento, L, densidade ML-3 e velocidade LT-1 é linearmente independente.
+				Pode formar uma base porque qualquer que seja o produto entre elas nunca será adimensional!
+			\end{itemize}
+		
+		\item Evitar duas propriedades físicas para compor a base.
+			\begin{itemize}
+				\item Ex: Viscosidade e densidade.
+			\end{itemize}
+	\end{itemize}
+
+\subsubsection{Procedimento}
+	\begin{enumerate}
+		\item Liste todos os parâmetros envolvidos;
+		\item Selecione um conjunto de dimensões fundamentais ;
+		\item Liste as dimensões de todos os parâmetros em termos das dimensões primárias;
+		\item Selecione da lista um número dos parâmetros que se repetem;
+		\item Estabeleça equações adimensionais combinando os parâmetros;
+		\item Verifique se os parâmetros são adimensionais.
+	\end{enumerate}
+
+\section{Semelhança}
+	As leis de escala podem ser aplicadas desde que haja semelhança entre modelo e protótipo.\\
+	
+	Os testes no modelo são semelhantes ao protótipo quando:
+	\begin{center}
+		\Large
+		$
+		\pi_{2m} = \pi_{2m};\pi_{3m} = \pi_{3m};...;\pi_{km} = \pi_{km}
+		$
+	\end{center}
+	Usando o número de Reynolds como exemplo: Precisamos garantir que o Re do modelo e do protótipo sejam iguais para assegurar a semelhança.\\
+	
+	Nem sempre é possível garantir a semelhança completa.
+	Ao invés de se falar em semelhança ou similaridade completa, fala-se de tipos particulares de semelhança:
+	\begin{itemize}
+		\item Geométrica - Um modelo e um protótipo são geometricamente similares se todas as dimensões do corpo possuírem a mesma razão linear;
+		\item Cinemática - A similaridade cinemática requer que as velocidades, nas três direções coordenadas, no modelo e no protótipo tenham a mesma razão linear;
+		\item Dinâmica - A  similaridade dinâmica existe quando o modelo e protótipo possuem a mesma razão de comprimento, tempo e força;
+		\item Térmica.
+	\end{itemize}
+
+\section{Escoamento Interno}
+	\textbf{Escoamento Laminar x Turbulento}: \textit{Escoamentos laminares} são altamente ordenados, com cada partícula do fluido seguindo umas as outras de forma ordeira.
+	
+	\textit{Escoamentos turbulentos} são altamente desordenados, sendo difícil definir as posições das partículas instante a instante. Diz-se que o escoamento é de alguma forma caótico
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/escoamento}
+		\caption{Escoamento Laminar e Turbulento}
+		\label{fig:escoamento}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/escoamento1}
+		\caption{Experimento de Osborne Reynolds (1841-1912)}
+		\label{fig:escoamento1}
+	\end{figure}
+
+	Reynolds mostrou que para tubos as instabilidades começam quando \textbf{Re = 2.300} e que acima de \textbf{$10^4$} o escoamento é completamente turbulento.
+	Entre 2.300 e $10^4$ há a \textbf{transição} do escoamento e pode haver regime laminar, turbulento ou ambas.\\
+	
+	Valores de Re aceitos para transição em \textbf{tubos}:
+	\begin{itemize}
+		\item Laminar $Re_D < 2300$
+		\item Turbulento $Re_D > 4000$
+		\item Transição $2300 < Re_D < 4000$
+	\end{itemize}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/re}
+		\caption{Definição de Reynolds}
+		\label{fig:re}
+	\end{figure}
+
+\subsection{Comprimento de Desenvolvimento}
+	Enquanto que próximo  da entrada o perfil de velocidades pode ser plano, a atuação da viscosidade desacelera o fluido próximo da parede. \\
+	
+	Para conservar massa o núcleo deve ser acelerado!
+	
+	Este conjunto de fatores faz com que seja estabelecido um perfil de velocidades a jusante da entrada cujo máximo é no centro e o mínimo é na parede
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/des2}
+		\caption{Diferença entre laminar e tubulento}
+		\label{fig:des2}
+	\end{figure}
+
+	O perfil de velocidades e a pressão variam ao longo da direção axial do tubo.\\
+	O comprimento da região de entrada é denominado por Le.\\
+	Para distâncias superiores a Le, diz-se que o escoamento está \textbf{hidrodinamicamente desenvolvido}.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/des}
+		\caption{Escoamento Desenvolvido}
+		\label{fig:des}
+	\end{figure}
+	O termo ‘Desenvolvido’  significa que o perfil não mais varia ao longo da direção axial do escoamento.\\
+	
+	Quando o escoamento está completamente desenvolvido o vetor de velocidades é unidimensional, com apenas uma componente na direção r que depende da distância da parede.\\
+	
+	A pressão varia ao longo do escoamento, mas não varia transversalmente à ele, P = P(x). 
+	Em qualquer seção transversal a pressão é uniforme.
+
+\subsection{Perfil de Velocidade num Tubo}
+	A velocidade não está distribuída uniformemente ao longo do tubo, mas apresenta um perfil:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/vel}
+		\caption{Perfil de Velocidade}
+		\label{fig:vel}
+	\end{figure}
+	
+	Num tubo a velocidade máxima, $U_{max}$, ocorre no centro (r=0). A relação entre a velocidade média e a máxima é uma função do perfil de velocidades:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\linewidth]{imagens/vel1}
+		\caption{Relação entre Velocidades}
+		\label{fig:vel1}
+	\end{figure}
+	
+\subsection{Coeficiente de Energia Cinética}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.4\linewidth]{imagens/coe}
+		\caption{Coeficiente de Energia Cinética}
+		\label{fig:coe}
+	\end{figure}
+	
+	Para escoamentos em regime turbulento em dutos frequentemente assume-se que o coeficiente $\alpha$ é igual a 1.\\
+	
+	Para regime laminar entretanto é necessário o uso da correção de E.K. pois coeficiente $\alpha$ é igual a 2 
+	
+	\begin{itemize}
+		\item Laminar: $\alpha = 2$
+		\item Turbulento: $\alpha = 1$	
+	\end{itemize}
+
+	A \textbf{conservação de energia} é escrita como:
+	\begin{center}
+		\Large
+		$
+		(\alpha \frac{\bar{V}^2}{2g} + z + \frac{P}{\varphi g})_{out} - (\alpha \frac{\bar{V}^2}{2g} + z + \frac{P}{\varphi g})_{in} = -h_L - w_{eixo}
+		$
+	\end{center}
+
+\subsection{Introdução Perda de Carga Localizada e Distribuída}
+	As perdas de carga tem origem no atrito que a parede exerce no fluido e na mudança de padrão do escoamento.\\
+	 
+	Desta forma, associa-se a perda de carga à uma parcela distribuída (hf) ao longo de toda tubulação e outra localizada (hm) em acessórios (curva, restrição, válvula, etc).
+	\begin{center}
+		\Large
+		$
+		h_{L} = h_{f} + \sum h_m
+		$
+	\end{center}
+
+
+
+\newpage
+\subsection{Perda de Carga Distribuída}
+	\begin{center}
+		\Large
+		$
+		h_{f} = 8.f\frac{LQ^2}{\pi^2D^5g}
+		$\\$
+		h_{f} = 8.f\frac{LQ^2}{\pi^2D^5}
+		$
+	\end{center}
+	\textit{f} é determinado pelo Diagrama de Moody.
+\subsubsection{Rugosidade Relativa}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/rug}
+		\caption{Rugosidade}
+		\label{fig:rug}
+	\end{figure}
+	\begin{center}
+		\Large
+		$
+		[rugosidade\cdot relativa] = \frac{\varepsilon}{d} = \frac{[rugosidade-mm]}{[diametro-tubo-mm]}
+		$
+	\end{center}
+\subsubsection{Diagrama de Moody}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.9\linewidth]{imagens/moody}
+		\caption{Diagrama de Moody}
+		\label{fig:moody}
+	\end{figure}
+
+\newpage
+\subsection{Perda de Carga Localizada}
+	Toda a perda de carga localizada é modelada como sendo uma parcela da energia cinética, sendo determinada como:
+	\begin{center}
+		\Large
+		$
+		h_{m} = K.\frac{\bar{V}^2}{2}
+		$ ou\\
+		$
+		h_{m} = f.(\frac{L_{e}}{D}).\frac{\bar{V}^2}{2}
+		$
+	\end{center}
+	\textit{$\frac{L_{e}}{D}$}, \textit{f} e \textit{K} são encontrados em tabelas
+	
+\subsubsection{Contrações e Expansões}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/cargaloc}
+		\caption{Contrações e Expansões}
+		\label{fig:cargaloc}
+	\end{figure}
+
+\subsubsection{Curvas, Válvulas, etc}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.9\linewidth]{imagens/valv}
+		\caption{Coeficiente K}
+		\label{fig:valv}
+	\end{figure}
+
+	\newpage
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.9\linewidth]{imagens/valv2}
+		\caption{Coeficiente $\frac{L_{e}}{D}$}
+		\label{fig:valv2}
+	\end{figure}
+	
+	\newpage
+\subsubsection{Entradas e Saídas}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.9\linewidth]{imagens/valv3}
+		\caption{Entradas e Saídas}
+		\label{fig:valv3}
+	\end{figure}
+	
+
+
+
+
+
+\end{document}
+	

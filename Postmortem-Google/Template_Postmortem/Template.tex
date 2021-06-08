@@ -1,0 +1,75 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{indentfirst}
+
+\usepackage{graphicx}
+\usepackage[pdftex]{hyperref}
+\graphicspath{ {imagens/} }
+\usepackage{xcolor}
+
+%Caracteres Japoneses
+\usepackage{CJK}
+
+% Definindo novas cores
+\definecolor{verde}{rgb}{0.25,0.5,0.35}
+\definecolor{jpurple}{rgb}{0.5,0,0.35}
+
+
+
+\begin{document}
+	\Large
+	Mecatron - Postmortem
+	
+	Autor: Erik Goto, 23/04/21\\
+	Status: Em andamento\\
+	\textbf{[Projeto] Robô Educativo}\\
+	\large
+	
+	\textbf{Palavras-Chave}:
+	\normalsize
+	Eletrônica; ESP32; microUSB; upload \textit{[Palavras-chave para facilitar a filtragem do assunto]}
+	
+	\section{Gatilho}
+	Refazer a placa do projeto após ela ser produzida.
+	
+	\section{Impacto}
+	Vamos ter que refazer o circuito do micro USB para alimentação e upload do programa. Devido a isso a entrega do projeto será adiada mais algumas semanas, e "perdemos" o investimento realizado, tanto tempo quanto dinheiro.
+	
+	\section{Causa}
+	Não testamos o circuito em uma protoboard, e apenas copiamos o CI no esquemático sem ter certeza como o circuito reagiria ao ser alimentado e numa situação de upload de código para a ESP32.
+	
+	\section{Plano de Ação}
+	\textit{[Não sei. Mas aqui viria o plano de ação]}
+	\begin{enumerate}
+		\item A
+		\item B
+		\item C
+		\item D
+	\end{enumerate}
+	
+	
+	\section{Sugestões para a posterioridade}
+	\subsection{O que fizemos bem?}
+	Conseguimos substituir o funcionamento do microUSB por um FTDI. Assim os outros testes não foram afetados.
+	
+	\subsection{O que não fizemos bem?}	
+	Não testamos o comportamento dos componentes em uma protoboard antes de usá-los e encaminharmos a placa para produção.
+	\subsection{Outras observações}
+	\textit{[Uma das partes mais importantes do docs]}
+	
+	Por sorte tínhamos dois pinos para a comunicação serial que serão usados no projeto final. Portanto, o upload pôde ser realizado usando um módulo FTDI. Em um projeto que use ESP32 é importante colocar dois pinheads conectados ao RX e TX, facilitando o processo de upload, além de ser mais fácil que usar o microUSB para tal função.\\
+	
+	
+	\textit{[Na hora da revisão feita por uma segunda pessoa, coisas que devem ser avaliadas]}
+	\begin{itemize}	
+		\item Was key incident data collected for posterity?
+		\item Are the impact assessments complete?
+		\item Was the root cause sufficiently deep?
+		\item Is the action plan appropriate and are resulting bug fixes at appropriate priority?
+		\item Did we share the outcome with relevant stakeholders?
+	\end{itemize}
+	
+\end{document}

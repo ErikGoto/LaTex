@@ -1,24 +1,24 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.11.5)  23 DEC 2020 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.4)  13 MAY 2021 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Japones_I.tex
 (./Japones_I.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-07-17>
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count168
-\c@section=\count169
-\c@subsection=\count170
-\c@subsubsection=\count171
-\c@paragraph=\count172
-\c@subparagraph=\count173
-\c@figure=\count174
-\c@table=\count175
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
@@ -28,17 +28,17 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+Package: iftex 2019/11/07 v1.0c TeX engine tests
 ))
-\Gm@cnth=\count176
-\Gm@cntv=\count177
-\c@Gm@tempcnt=\count178
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
 \Gm@bindingoffset=\dimen135
 \Gm@wd@mp=\dimen136
 \Gm@odd@mp=\dimen137
@@ -47,32 +47,34 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutheight=\dimen140
 \Gm@layouthoffset=\dimen141
 \Gm@layoutvoffset=\dimen142
-\Gm@dimlist=\toks16
+\Gm@dimlist=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/07/13 3.47 The Babel package
+Package: babel 2020/02/14 3.40 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/07/13 3.47 Babel common definitions
-\babel@savecnt=\count179
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count178
 \U@D=\dimen143
-\l@babelnohyphens=\language4
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
+\bbl@dirlevel=\count179
 )
-\bbl@dirlevel=\count180
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
-Language: portuges 2020/05/04 v1.2r Portuguese support from the babel system
 Package babel Info: \l@brazilian = using hyphenrules for portuguese
-(babel)             (\language3) on input line 111.
-Package babel Info: Making " an active character on input line 143.
+(babel)             (\language3) on input line 113.
+Package babel Info: Making " an active character on input line 145.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
@@ -98,13 +100,13 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@width=\dimen145
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -136,11 +138,11 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen146
-\Hy@linkcounter=\count181
-\Hy@pagecounter=\count182
+\Hy@linkcounter=\count180
+\Hy@pagecounter=\count181
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -150,21 +152,22 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count183
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+\Hy@SavedSpaceFactor=\count182
+\pdfmajorversion=\count183
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
+Package hyperref Info: Bookmarks ON on input line 4800.
 \c@Hy@tempcnt=\count184
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5076.
+LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen147
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
@@ -177,15 +180,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count185
 \Field@Width=\dimen148
 \Fld@charsize=\dimen149
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
 
 (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
@@ -197,7 +200,7 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 Package hyperref Info: Driver: hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
@@ -311,7 +314,7 @@ LaTeX Info: Redefining \selectfont on input line 755.
 \CJK@indent=\box45
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count191
 \l__pdf_internal_box=\box46
 )
@@ -440,12 +443,12 @@ LaTeX Font Info:    ... okay on input line 22.
 \scratchbox=\box47
 \nofMPsegments=\count193
 \nofMParguments=\count194
-\everyMPshowfont=\toks19
+\everyMPshowfont=\toks18
 \MPscratchCnt=\count195
 \MPscratchDim=\dimen151
 \MPnumerator=\count196
 \makeMPintoPDFobject=\count197
-\everyMPtoPDFconversion=\toks20
+\everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -484,8 +487,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Japones_I.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+)
+\tf@toc=\write4
+\openout4 = `Japones_I.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 \newpage
+              [1] (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
 )
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
@@ -495,7 +513,7 @@ File: UTF8.enc 2015/04/18 4.8.4
 File: UTF8.chr 2015/04/18 4.8.4
 )
 LaTeX Font Info:    Trying to load font information for C70+min on input line 4
-4.
+7.
 
 (/usr/share/texmf/tex/latex/CJK/UTF8/c70min.fd
 File: c70min.fd 2008/12/29 4.8.2
@@ -503,155 +521,7 @@ File: c70min.fd 2008/12/29 4.8.2
 (/usr/share/texmf/tex/latex/CJK/UTF8/c70min.fdx
 File: c70min.fdx 2008/12/29 4.8.2
 )
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
-
- []
-
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
-File: UTF8.enc 2015/04/18 4.8.4
-)
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
-File: UTF8.chr 2015/04/18 4.8.4
-)
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--86
-
- []
-
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
-File: UTF8.enc 2015/04/18 4.8.4
-)
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
-File: UTF8.chr 2015/04/18 4.8.4
-)
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.93 		\item „
-              Åù„Åì - Ai\\ [1]
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
-
- []
-
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
-File: UTF8.enc 2015/04/18 4.8.4
-)
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
-File: UTF8.chr 2015/04/18 4.8.4
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 104.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 104.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 104.
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
-
- []
-
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
-File: UTF8.enc 2015/04/18 4.8.4
-)
-(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
-File: UTF8.chr 2015/04/18 4.8.4
-)
-Missing character: There is no Á in font udmj00!
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
-
- []
-
-Missing character: There is no È in font udmj00!
-Missing character: There is no · in font udmj00!
-Missing character: There is no · in font udmj00!
-Missing character: There is no Á in font udmj00!
-Missing character: There is no „ in font udmj00!
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--126
-
- []
-
-Missing character: There is no È in font udmj00!
-Missing character: There is no Ì in font udmj00!
-Missing character: There is no … in font udmj00!
-Missing character: There is no Í in font udmj00!
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
 
  []
 
@@ -661,9 +531,167 @@ File: UTF8.enc 2015/04/18 4.8.4
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-Missing character: There is no „ in font udmj00!
- [3]
-Missing character: There is no Í in font udmj00!
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+<Imagens/idade.png, id=199, 301.8778pt x 384.6872pt>
+File: Imagens/idade.png Graphic file (type png)
+<use Imagens/idade.png>
+Package pdftex.def Info: Imagens/idade.png  used on input line 103.
+(pdftex.def)             Requested size: 227.62206pt x 290.05844pt.
+[3 <./Imagens/idade.png>] (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+<Imagens/hyaku.png, id=213, 212.29312pt x 307.90031pt>
+File: Imagens/hyaku.png Graphic file (type png)
+<use Imagens/hyaku.png>
+Package pdftex.def Info: Imagens/hyaku.png  used on input line 122.
+(pdftex.def)             Requested size: 136.57462pt x 198.08911pt.
+<Imagens/sen.png, id=214, 213.04594pt x 308.65312pt>
+File: Imagens/sen.png Graphic file (type png)
+<use Imagens/sen.png>
+Package pdftex.def Info: Imagens/sen.png  used on input line 132.
+(pdftex.def)             Requested size: 136.57462pt x 197.8764pt.
+ [4 <./Imagens/hyaku.png> <./Imagens/sen.png>]
+<Imagens/man.png, id=223, 230.36063pt x 307.1475pt>
+File: Imagens/man.png Graphic file (type png)
+<use Imagens/man.png>
+Package pdftex.def Info: Imagens/man.png  used on input line 142.
+(pdftex.def)             Requested size: 136.57462pt x 182.09654pt.
+ (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+) [5 <./Imagens/man.png>]
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
+
+ []
+
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--209
+
+ []
+
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--224
+
+ []
+
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
+
+ []
 
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
 File: UTF8.enc 2015/04/18 4.8.4
@@ -672,60 +700,401 @@ File: UTF8.enc 2015/04/18 4.8.4
 File: UTF8.chr 2015/04/18 4.8.4
 )
 Missing character: There is no Á in font udmj00!
- [4]
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--245
+
+ []
+
+Missing character: There is no È in font udmj00!
+Missing character: There is no · in font udmj00!
+Missing character: There is no · in font udmj00!
+Missing character: There is no Á in font udmj00!
+Missing character: There is no „ in font udmj00!
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--249
+
+ []
+
+Missing character: There is no È in font udmj00!
+Missing character: There is no Ì in font udmj00!
+Missing character: There is no … in font udmj00!
+Missing character: There is no Í in font udmj00!
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
 File: UTF8.enc 2015/04/18 4.8.4
 )
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
+Underfull \hbox (badness 10000) in paragraph at lines 259--265
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 267--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--289
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
+
+ []
+
+Missing character: There is no ‡ in font udmj00!
+<Imagens/ex1.png, id=245, 502.87875pt x 347.04657pt>
+File: Imagens/ex1.png Graphic file (type png)
+<use Imagens/ex1.png>
+Package pdftex.def Info: Imagens/ex1.png  used on input line 317.
+(pdftex.def)             Requested size: 318.66948pt x 219.9167pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8]
+<Imagens/tempo_relativo.png, id=251, 589.4522pt x 127.22531pt>
+File: Imagens/tempo_relativo.png Graphic file (type png)
+<use Imagens/tempo_relativo.png>
+Package pdftex.def Info: Imagens/tempo_relativo.png  used on input line 327.
+(pdftex.def)             Requested size: 455.24411pt x 98.25885pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--335
+
+ []
+
+
+Overfull \hbox (44.61697pt too wide) in paragraph at lines 336--337
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+[9 <./Imagens/ex1.png> <./Imagens/tempo_relativo.png>]
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+<Imagens/grupos_verbos.png, id=260, 466.74374pt x 316.93407pt>
+File: Imagens/grupos_verbos.png Graphic file (type png)
+<use Imagens/grupos_verbos.png>
+Package pdftex.def Info: Imagens/grupos_verbos.png  used on input line 349.
+(pdftex.def)             Requested size: 364.19667pt x 247.30913pt.
+<Imagens/vacao.png, id=261, 596.2275pt x 344.03531pt>
+File: Imagens/vacao.png Graphic file (type png)
+<use Imagens/vacao.png>
+Package pdftex.def Info: Imagens/vacao.png  used on input line 360.
+(pdftex.def)             Requested size: 364.19667pt x 210.14995pt.
+ [10 <./Imagens/grupos_verbos.png> <./Imagens/vacao.png>]
+<Imagens/tempo.png, id=270, 549.55313pt x 241.65282pt>
+File: Imagens/tempo.png Graphic file (type png)
+<use Imagens/tempo.png>
+Package pdftex.def Info: Imagens/tempo.png  used on input line 371.
+(pdftex.def)             Requested size: 386.96027pt x 170.16245pt.
+ [11 <./Imagens/tempo.png>]
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+Missing character: There is no Í in font udmj00!
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--410
+
+ []
+
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+) [12]
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--468
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--471
+
+ []
+
+Missing character: There is no È in font udmj00!
+Missing character: There is no È in font udmj00!
+Missing character: There is no È in font udmj00!
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--474
+
+ []
+
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
+
+ []
+
+[13] (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+) [14]
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 598--599
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--612
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--615
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 636--637
+
+ []
+
+[17] (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+Missing character: There is no „ in font udmj00!
+ [18] [19]
 
 LaTeX Font Warning: Font shape `C70/min/m/it' undefined
-(Font)              using `C70/min/m/n' instead on input line 244.
+(Font)              using `C70/min/m/n' instead on input line 811.
 
-Missing character: There is no Í in font udmj00!
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+) [20]
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
 File: UTF8.enc 2015/04/18 4.8.4
 )
 (/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
+Missing character: There is no Í in font udmj00!
+
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(/usr/share/texmf/tex/latex/CJK/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 865.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 865.
  (./Japones_I.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 865.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 865.
 Package rerunfilecheck Info: File `Japones_I.out' has not changed.
-(rerunfilecheck)             Checksum: 195CE6EEE9EDB48D94029BFFE72C7403;493.
+(rerunfilecheck)             Checksum: 3BA4669B9866398D9A71F71ED7849783;1998.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 865.
  ) 
 Here is how much of TeX's memory you used:
- 8263 strings out of 482834
- 121140 string characters out of 5956100
- 409815 words of memory out of 5000000
- 23364 multiletter control sequences out of 15000+600000
- 548012 words of font info for 79 fonts, out of 8000000 for 9000
+ 8574 strings out of 483163
+ 128330 string characters out of 5965512
+ 398964 words of memory out of 5000000
+ 23095 multiletter control sequences out of 15000+600000
+ 551913 words of font info for 101 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 43i,5n,37p,224b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/erik_goto/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200
-.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/
-type1/wadalab/JIS/dmjhira.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjka.p
-fb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkata.pfb></usr/share/texmf/font
-s/type1/wadalab/JIS/dmjkh.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjsy.p
-fb>
-Output written on Japones_I.pdf (6 pages, 110587 bytes).
+ 34i,9n,37p,316b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/erik/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600p
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/wadala
+b/JIS/dmjhira.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjka.pfb></usr/sha
+re/texmf/fonts/type1/wadalab/JIS/dmjkata.pfb></usr/share/texmf/fonts/type1/wada
+lab/JIS/dmjkb.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkc.pfb></usr/sha
+re/texmf/fonts/type1/wadalab/JIS/dmjkd.pfb></usr/share/texmf/fonts/type1/wadala
+b/JIS/dmjke.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkf.pfb></usr/share
+/texmf/fonts/type1/wadalab/JIS/dmjkh.pfb></usr/share/texmf/fonts/type1/wadalab/
+JIS/dmjki.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkk.pfb></usr/share/t
+exmf/fonts/type1/wadalab/JIS/dmjsy.pfb>
+Output written on Japones_I.pdf (22 pages, 682738 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 472 PDF objects out of 1000 (max. 8388607)
+ 406 compressed objects within 5 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 
