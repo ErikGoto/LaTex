@@ -92,6 +92,54 @@
 		(P_{B} - P_{A}) = \varphi .g.h
 		$
 	\end{center}
+\subsection{Referencial não Inercial}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/aa}
+		\caption[]{Aplicações}
+		\label{fig:aa}
+	\end{figure}
+	
+	\begin{center}
+		\Large
+		$
+		- \bigtriangledown P = \rho.(\vec{g} - \vec{a}_{rel})
+		$
+	\end{center}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/aa1}
+		\caption{Aceleração Relativa}
+		\label{fig:aa1}
+	\end{figure}
+	Podemos calcular a angulação:
+	\begin{center}
+		\Large
+		$
+		\frac{dz}{dx} = - \frac{a_x}{g + a_z} = - tg \theta
+		$
+	\end{center}
+\subsubsection{Superfícies em Rotação}
+	\begin{center}
+		\Large
+		$
+		\bigtriangledown P = - \rho g_k + \rho \omega ^2 r_r
+		$
+	\end{center}	
+	Inclinação de superfícies em rotação:
+	\begin{center}
+		\Large
+		$
+		\alpha = arctan(\frac{\omega ^2 r}{g})
+		$
+	\end{center}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\linewidth]{imagens/aa2}
+		\caption{Distância da Superfície Livre}
+		\label{fig:aa2}
+	\end{figure}
+	
 
 \newpage
 \section{Teorema de Transporte de Reynolds}
@@ -132,7 +180,7 @@
 		\frac{\delta}{\delta t}\int_{vc}\textcolor{blue}{\vec{v_{xyz}}}.\varphi dV + \int_{vc}\textcolor{blue}{\vec{v_{xyz}}}\varphi.\vec{V_{r}} .\vec{n}dA = \sum F_{ext} - \int_{vc} \textcolor{red}{\vec{a_{ref}}} .\varphi dV   
 		$
 	\end{center}
-
+	$\textcolor{blue}{\vec{v_{xyz}}}$ é medido a partir do referencial não inercial.
 \subsection{Conservação do Momento da Quantidade de Movimento}
 	\begin{center}
 		\Large
@@ -141,10 +189,15 @@
 		$\\
 		Aceleração relativa:\\
 		$
-		\vec{a_{rel}} = \vec{\omega} \times (\vec{\omega} \times \vec{r_{xyz}}) + 2\vec{\omega} \times \vec{V_{xyz}}
+		\vec{a_{rel}} = \frac{d \vec{\omega}}{dt} \times \vec{r}_{xyz} + \vec{\omega} \times (\vec{\omega} \times \vec{r_{xyz}}) + 2\vec{\omega} \times \vec{V_{xyz}}
+		$\\
+		Potência\\
+		$
+		\dot{W}_{eixo} = T_{eixo}. \omega
 		$
 		
 	\end{center}
+\textbf{Obs:} Como o torque \textbf{T} sempre está na direção $\hat{z}$, os produtos vetoriais devem ser na mesma direção, caso contrário podemos descartá-los.
 
 \subsection{Conservação de Energia}
 	\begin{center}
@@ -153,8 +206,9 @@
 		\dot{Q_{vc}} - \dot{W_{vc}} = \frac{\delta}{\delta t} \int_{vc} \varphi (u + \frac{V_I^2}{2} + g.z)dV+ \int_{sc}(\textcolor{red}{u + P.v} + \frac{V_I^2}{2}+g.z)\varphi \vec{V_r}.\vec{n}dA
 		$
 	\end{center}
-	\textcolor{red}{*} Entalpia - h
-
+	\textcolor{red}{*} Entalpia - h\\
+	\textcolor{red}{*} As diferenças de energia cinética devem ser medidas a partir de um referencial inercial.
+	
 \subsection{Trabalho da Bomba}
 	O papel da bomba é transferir energia para os termos mecânicos e também para as irreversibilidades.
 	\begin{center}
@@ -375,9 +429,15 @@
 		\Large
 		$
 		(\alpha \frac{\bar{V}^2}{2g} + z + \frac{P}{\varphi g})_{out} - (\alpha \frac{\bar{V}^2}{2g} + z + \frac{P}{\varphi g})_{in} = -h_L - w_{eixo}
+		$\\ou\\
+		
+		$
+		w_{shaft} = (\alpha \frac{\bar{V}^2}{2} +gz + \frac{P}{\rho})_{in} - [(\alpha \frac{\bar{V}^2}{2} + gz + \frac{P}{\rho})_{out} + h_L]
 		$
 	\end{center}
-
+	Obs: 
+		$\dot{W}_{eixo}= \rho .Q.w_{eixo} $
+	
 \subsection{Introdução Perda de Carga Localizada e Distribuída}
 	As perdas de carga tem origem no atrito que a parede exerce no fluido e na mudança de padrão do escoamento.\\
 	 
@@ -396,9 +456,9 @@
 	\begin{center}
 		\Large
 		$
-		h_{f} = 8.f\frac{LQ^2}{\pi^2D^5g}
+		h_{f} = f(\frac{L}{D}).(\frac{V^2}{2g}) = 8.f\frac{LQ^2}{\pi^2D^5g}[m]
 		$\\$
-		h_{f} = 8.f\frac{LQ^2}{\pi^2D^5}
+		h_{f} = 8.f\frac{LQ^2}{\pi^2D^5}[J]
 		$
 	\end{center}
 	\textit{f} é determinado pelo Diagrama de Moody.
@@ -422,6 +482,13 @@
 		\caption{Diagrama de Moody}
 		\label{fig:moody}
 	\end{figure}
+\subsubsection{Equação de Colebrook-White}
+	O diagrama de Moody é uma representação gráfica da equação de Colebrook-White;
+	\begin{center}
+		$
+		\frac{1}{\sqrt{f}} = -2 log[\frac{\varepsilon}{3,7D}+\frac{2,51}{Re\sqrt{f}}]
+		$
+	\end{center}
 
 \newpage
 \subsection{Perda de Carga Localizada}
@@ -468,6 +535,205 @@
 		\includegraphics[width=0.9\linewidth]{imagens/valv3}
 		\caption{Entradas e Saídas}
 		\label{fig:valv3}
+	\end{figure}
+	
+\subsection{Rede de Tubulações}
+	De forma similar à circuitos elétricos, utilizando a leis de Kirchhoff (malha e nós), com a seguinte associação:
+		\begin{itemize}
+			\item Correte elétrica é similar a vazão;
+			\item Diferença de potencial é similar a diferença de pressão;
+			\item Resistência elétrica é similar a perda de carga:
+				\begin{itemize}
+					\item Resistencia elétrica é linear:
+					Depende da primeira potência da corrente e é constante;
+					\item Perda de carga:
+					Depende do quadrado da vazão/velocidade é não é constante.
+				\end{itemize}
+		\end{itemize}
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\linewidth]{imagens/regras}
+		\caption{Regras}
+		\label{fig:regras}
+	\end{figure}
+	
+\newpage
+\subsubsection{Exemplo}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\linewidth]{imagens/rt}
+		\caption{Exemplo}
+		\label{fig:rt}
+	\end{figure}
+	\textbf{Vazão no nó D}:\\
+	\begin{center}
+		\Large
+		$
+		Q_4 + Q_6 = Q_7 + Q_9
+		$
+	\end{center}
+	\textbf{Pressão na malha I}:\\
+		\begin{center}
+			\Large
+			$
+			P_A - P_B + P_B - P_D - (P_D - P_F) - (P_F - P_A) = 0
+			$\\
+			$
+			P_A - P_B = f \frac{L}{D}. \frac{V^2}{2g} + \sum K \frac{V^2}{2g} - (Z_A - Z_B)
+			$
+		\end{center}
+	Se juntarmos $(Z_A-Z_B)$ com a diferença de pressão:
+		\begin{center}
+			\Large
+			$
+			P_A - P_B = f \frac{L}{D}. \frac{V^2}{2g} + \sum K \frac{V^2}{2g} 
+			$
+		\end{center}
+\newpage
+\section{Escoamento Externo}
+\subsection{Teoria da Camada Limite}
+	Fora da camada limite os efeitos viscosos são desprezíveis e pode ser tratado como sem viscosidade. Equação de Bernoulli é válida!\\
+	
+	$\delta$ é a espessura da camada limite.
+	É definida como a distância da parede onde a velocidade é de até 99\% da corrente livre.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/ee1}
+		\caption{Camada Limite}
+		\label{fig:ee1}
+	\end{figure}
+	Na Região Interna: Efeitos viscosos e inércia são igualmente importantes. 
+	Há atrito na parede e Bernoulli não pode ser usado.
+	
+\subsubsection{Equação Integral da Camada Limite}
+	\begin{center}
+		\Large
+		$
+		\frac{\tau_w}{\rho} = \frac{\partial}{\partial x}(U^2 \theta) + \delta^*U\frac{dU}{dx}
+		$
+	\end{center}
+	\textbf{Espessura de Deslocamento}: Representa a espessura efetiva e está relacionada com o arrasto de pressão;\\
+		\begin{center}
+			$
+			\delta^* = \int_{0}^{\delta}(1 - 	\frac{u}{U})dy
+			$	
+		\end{center}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/a}
+		\caption{Espessura de Deslocamento}
+		\label{fig:a}
+	\end{figure}
+	\textbf{Espessura de Momento:} Pode-se dizer que a espessura de momento representa o arrasto viscoso.
+		\begin{center}
+			$
+			\theta \approx \int_{0}^{\theta} \frac{u}{U}(1 - \frac{u}{U})dy
+			$
+		\end{center}
+	\newpage
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.7\linewidth]{imagens/a1}
+			\caption{Espessura de Momento}
+			\label{fig:a1}
+		\end{figure}
+		
+\subsection{Camada Limite - Placa Plana}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\linewidth]{imagens/a2}
+		\caption{Método de Kármán Polhaussem}
+		\label{fig:a2}
+	\end{figure}
+\newpage
+\subsubsection{Placa plana: Laminar}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/pp}
+		\caption{Placa Plana: Laminar}
+		\label{fig:pp}
+	\end{figure}
+
+\subsubsection{Placa Plana: Turbulento}
+	\begin{center}
+		\Large
+		$
+		\frac{\delta}{x} = \frac{0,382}{Re^{1/5}_x}
+		$
+	\end{center}
+	\textbf{Coeficiente de Atrito de Fanning}
+	\begin{center}
+		\Large
+		$
+		C_f = \frac{0,0594}{Re^{1/5}_x}
+		$
+	\end{center}
+
+\section{Corpo Rombudo}
+	A TCL não é válida para escoamentos com separação.
+	Na separação $\delta$ cresce e $\delta$/L não é pequeno!
+	Entretanto, a TCL pode prever aproximadamente o ponto de separação.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\linewidth]{imagens/sep}
+		\caption{Separação do Escoamento}
+		\label{fig:sep}
+	\end{figure}
+	O ponto de separação é definido quando  a  tensão  na  parede é nula, $\tau_w$ = 0, isto é:
+		\begin{center}
+			\Large
+			$
+			separacao \Rightarrow \frac{du}{dy} = 0
+			$
+		\end{center}
+	\newpage
+\subsection{Força Resultante no Corpo}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/sep1}
+		\caption{Forças no corpo}
+		\label{fig:sep1}
+	\end{figure}
+
+	A força resultante pode ser decomposta em duas componentes em relação a direção do escoamento:
+	\begin{itemize}
+		\item Arrasto(FD) - \textit{Paralela}
+		\item Sustentação(FL) - \textit{Normal}
+	\end{itemize}
+
+\subsection{Arrasto de Forma(Presão)}
+	Causa uma força resultante na direção posta ao escoamento. Ela é expressa na forma de um coeficiente:
+		\begin{center}
+			\Large
+			$
+			C_D = \frac{\bar{D}_p}{(1/2) \rho U^2_{ext} A} \longrightarrow \bar{D}_p = C_D.(\frac{1}{2}) \rho U^2_{ext}A
+			$
+		\end{center}
+	U é a velocidade relativa, $(U_{corpo}-U_{fluido})$\\
+\textbf{Arrasto total}:
+	\begin{center}
+		\Large
+		$
+		\bar{D}_T = \bar{D}_p + \bar{D}_f
+		$
+	\end{center}
+	Para Re $\gg$ 1, o arrasto de forma $\bar{D}_p$ corresponde a maior fração do arrasto total, e o arrasto viscoso $\bar{D}_f$ pode ser desprezado.
+
+\newpage
+\subsection{Coeficiente de Sustentação}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\linewidth]{imagens/sep2}
+		\caption{A diferença de pressão causa a força de sustentação}
+		\label{fig:sep2}
+	\end{figure}
+	\newpage
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/sep3}
+		\caption{}
+		\label{fig:sep3}
 	\end{figure}
 	
 

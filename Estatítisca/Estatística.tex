@@ -6,6 +6,7 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage[pdftex]{hyperref}
+\usepackage{amssymb} 
 \graphicspath{ {imagens/} }
 
 \begin{document}
@@ -706,16 +707,332 @@ Variável Aleatória com valores possíveis em um intervalo no conjunto de núme
 		\label{fig:teo}
 	\end{figure}
 	
-
-
-
-
-
-
-
-
-
+\section{Intervalo de Confiança}	
+\subsection{Intervalo de Confiança para p}
+	Os intervalos de $100(1- \alpha)\%$ de confiança para \textit{p} podem ser de duas formas:
 	
+	\begin{enumerate}
+		\item Método Conservador
+			\begin{center}
+				\Large
+				$
+				IC_1(p, 1-\alpha) = [\hat{p} - z_{\alpha /2}\sqrt{\frac{1}{4n}};\hat{p} + z_{\alpha /2}\sqrt{\frac{1}{4n}}] 
+				$
+			\end{center}
+		\item Usando $\hat{p}$ para estimar o erro padrão
+			\begin{center}
+				\Large
+				$
+				IC_2(p, 1-\alpha) = [\hat{p} - z_{\alpha /2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}};\hat{p} + z_{\alpha /2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}] 
+				$
+			\end{center}
+	\end{enumerate}
+
+	Veja que nos dois casos, os IC's são da forma $\hat{p}\pm$ margem de erro.
 	
+\subsubsection{Como encontrar $z_{\alpha/2}$?}
+	\begin{center}
+		\Large
+		$
+		1-\alpha = P(|Z| \leq z_{\alpha /2}) = P(-z_{\alpha /2} \leq Z \leq z_{\alpha /2}) = 2\phi (z_{\alpha /2}) -1
+		$\\ Portanto,\\
+		$
+		\phi (z_{\alpha /2}) = 1 - \frac{\alpha}{2} 
+		$
+	\end{center}
+	Procure na tabela o valor de \textit{z} tal que a probabilidade acumulada até o valor de \textit{z} seja $1-\alpha /2$.
+
+\newpage
+\subsubsection{Interpretação do Intervalo de Confiança}
+	Se várias amostras aleatórias forem retiradas da população e calcularmos um IC de 95\% para cada amostra, cerca de 95\% desses intervalos irão conter a verdadeira proporção na população, p.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/ic}
+		\caption{Interpretação IC}
+		\label{fig:ic}
+	\end{figure}
+	
+\subsubsection{Tamanho da Amostra para Estimar p}
+	Em geral, para uma margem de erro \textbf{m}
+	\begin{center}
+		\Large
+		$
+		n = (\frac{z_{\alpha /2}}{2m})^2
+		$
+	\end{center}
+
+\subsection{Intervalo de Confiança para a média populacional $\mu$}
+	Seja $X_1, ..., X_n$ uma a.a de uma população com média $\mu$ e variância $ \sigma ^2 $ conhecida. Então:
+	\begin{center}
+		\Large
+		$ 
+		Z = \frac{\bar{X}_n - \mu}{\sigma \sqrt{n}}\sim N(0,1)
+		$\\
+		$ 
+		P(-z_{\alpha /2} < Z < z_{\alpha /2}) = 1 - \alpha
+		$
+	\end{center}
+	Um intervalo de $ 100(1-\alpha)\% $ de confiança para $ mu $ é dado por:
+	\begin{center}
+		\Large
+		$ 
+		IC(\mu, 1-\alpha) = [\bar{x} - z_{\alpha /2}.\frac{\sigma}{\sqrt{n}}; \bar{x}+z_{\alpha /2}.\frac{\sigma}{\sqrt{n}}]
+		$
+	\end{center}
+
+\subsubsection{Interpretação do Intervalo de Confiança para $ \mu $}
+Imagine que seja possível coletar uma amostra de tamanho \textit{n} da população várias vezes. Para cada vez, você calcula $\bar{a}$ e constrói um IC de 95\% para $\mu$.Imagine também que você conhece $\mu$ e conte quantos dos intervalos contêm $\mu$. A proporção de intervalos que contêm $\mu$ será próxima a 0.95.
+
+\subsubsection{Tamanho da Amostra}
+	Em geral, para uma margem de erro \textit{m} e confiança $ 100(1-\alpha) \%$
+	\begin{center}
+		\Large
+		$ 
+		n = (\frac{z_{\alpha /2}}{m})^2\sigma ^2
+		$
+	\end{center}
+
+\subsubsection{Interpretação do Intervalo de Confiança para $ \mu $: $ \sigma$ desconhecido }
+	Neste caso, usaremos a variância amostral($ s^2 $) como uma estimativa de $ \sigma ^2 $:
+	\begin{center}
+		\Large
+		$ 
+		s^2 = \frac{1}{n - 1} \sum_{i = 1}^{n}(x_i-\bar{x})^2
+		$
+	\end{center}
+	Como consequência, não temos mais distribuição Normal, mas sim a distribuição t-student com n-1 graus de liberdade:
+	
+	\begin{center}
+		\Large
+		$ 
+		T = \frac{\bar{X}_n - \mu}{\sqrt{s^2/n}} \sim t_n-1
+		$\\
+		$ 
+		P(-t_{n-1, \alpha /2}< T < t_{n-1, \alpha /2}) = 1- \alpha
+		$
+	\end{center}
+	Um intervalo de $ 100(1- \alpha) \%$ de confiança para $\mu$ é dado por:
+	\begin{center}
+		\Large
+		$ 
+		IC(\mu, 1- \alpha) = [\bar{x} - t_{n-1, \alpha /2}.\frac{s}{\sqrt{n}};\bar{x} + t_{n-1, \alpha /2}.\frac{s}{\sqrt{n}}]
+		$
+	\end{center}
+	Os valores da distribuição t-student também encontram-se tabelados.
+
+\section{Teste de Hipóteses}
+	\begin{enumerate}
+		\item Suposições\\
+		O teste é válido sob algumas suposições. A mais importante assume que os dados foram coletados aleatoriamente;
+		
+		\item Hipóteses
+			\begin{itemize}
+				\item \textbf{Hipótese Nula($H_0$)} afirma que o parâmetro populacional assume um dado valor;
+				\item Hipótese \textbf{Alternativa($H_A$)} afirma que o parâmetro populacional assume outros valore, diferente do valor descrito na $H_0$.
+			\end{itemize}
+		Em testes de hipóteses, mantêm-se a favor de $H_0$ a menos que os dados tragam grande evidência contra.
+		
+		\item Estatística do Teste\\
+		Descreve quão longe do parâmetro populacional usado na $H_0$ a estimativa está;
+		
+		\item Valor-de-p\\
+		Para interpretar uma estatística do teste, vamos usar uma probabilidade para resumir a evidência contra $H_0$, chamada valor-de-p;
+		
+		\item Conclusão\\
+		Geralmente, fixamos o \textbf{nível de significância} do teste($\alpha$), e usamos a seguinte regra - é comum usarmos $\alpha$ = 0,05.
+			\begin{itemize}
+				\item[$\checkmark$] valor-de-p $< \alpha$: rejeitamos $H_0$
+				\item[$\checkmark$] valor-de-p $> \alpha$: não rejeitamos $H_0$
+			\end{itemize} 
+	\end{enumerate}
+\subsubsection{Valor-de-p}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{imagens/p}
+		\caption{Valor de p}
+		\label{fig:p}
+	\end{figure}
+
+\subsubsection{Estatística do Teste}
+	Baseada na distribuição amostral de $\hat{p}$.
+	\begin{center}
+		\Large
+		$
+		Z = \frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}
+		$,
+		$\sim N(0,1)$
+	\end{center}
+	
+\subsection{Teste de Hipóteses para a média $\sigma$ conhecido}
+	Usamos o mesmo passo a passo que foi feito para as proporções:
+		\begin{itemize}
+			\item Suposições;
+			\item Hipóteses;
+			\item Estatística do teste:\\
+				$
+				Z = \frac{\bar{X}-\mu_0}{\frac{\sigma}{\sqrt{n}}}\sim N(0, 1)
+				$
+			\item Valor-de-p
+		\end{itemize}
+	
+\subsubsection{Região Crítica}
+	Conjunto de valores da estatística do teste para as quais a hipótese nula é rejeitada.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\linewidth]{imagens/g}
+		\caption{Região Crítica}
+		\label{fig:g}
+	\end{figure}
+	
+\subsection{Teste de Hipóteses para média($\sigma$ desconhecido)}
+	Quando $\sigma$ é desconhecido e a amostra é pequena ($n<30$) devemos utilizar a distribuição t.
+	\begin{center}
+		\Large
+		$
+		t = \frac{\bar{X}-\mu_0}{\frac{s}{\sqrt{n}}}\sim t_{n-1}
+		$
+	\end{center}
+	Valor-de-p: $P(\mid t_{n-1}\mid \geq \mid t_{obs} \mid ) = 2 p(t_{n-1}\geq t_{obs})$
+	
+\section{Inferência para duas populações }
+\subsection{Intervalo de Confiança para Duas Médias}
+	\textbf{Caso 1:} Variâncias diferentes e conhecidas
+	\begin{center}
+		\Large
+		$
+		\bar{X} - \bar{Y} \sim N(\mu_1 - \mu_2, \frac{\sigma^2_1}{n} + \frac{\sigma^2_2}{m})
+		$
+	\end{center}
+	
+	Normalizando,
+	\begin{center}
+		\Large
+		$
+		Z = \frac{(\bar{X} - \bar{Y})-(\mu_1 - \mu_2)}{\sqrt{\frac{\sigma^2_1}{n} + \frac{\sigma^2_2}{m}}} \sim N(0,1)
+		$
+	\end{center}
+
+	Intervalo de Confiança
+	\begin{center}
+		\Large
+		$
+		IC(\mu_1 - \mu_2, 1 - \alpha) = (\bar{X} - \bar{Y}) \pm z_{\frac{\alpha}{2}}\sqrt{\frac{\sigma^2_1}{n} + \frac{\sigma^2_2}{m}}
+		$
+	\end{center}
+	
+	\textbf{Caso 2:} Variâncias iguais e conhecidas\\
+	É um caso particular em que as variâncias são conhecidas e idênticas, isto é, $\sigma^2_1 = \sigma^2_2 = \sigma^2$\\
+	
+	\textbf{Caso 3:} Variâncias iguais e desconhecidas\\
+	Usamos uma estimativa de $\sigma^2$ e a distribuição normal é substituída pela \textit{distribuição t}.
+		\begin{center}
+			\Large
+			$
+			Sp^2 = \frac{(n-1)S^2_1 + (m-1)S^2_2}{n+m-2}
+			$\\
+			$
+			T = \frac{(\bar{X} - \bar{Y})-(\mu_1 - \mu_2)}{\sqrt{Sp^2(\frac{1}{n} + \frac{1}{m})}} \sim t_{n+m-2}
+			$\\
+			$
+			IC(\mu_1 - \mu_2, 1 - \alpha) = (\bar{X} - \bar{Y}) \pm t_{n+m-2}\sqrt{Sp^2(\frac{1}{n} + \frac{1}{m})}
+			$
+			
+		\end{center}
+	
+\subsection{Intervalo de Confiança para Duas Proporções}
+	Queremos encontrar um IC de confiança para a diferença entre as proporções $p_1$ e $p_2$ , ou seja, um IC para $p_1-p_2$.\\
+		
+		Normalizando,
+		\begin{center}
+			\Large
+			$
+			Z = \frac{(\hat{p}_1 - \hat{p}_2)-(p_1-p_2)}{\sqrt{\frac{\hat{p}_1(1-\hat{p_1})}{n_1} + \frac{\hat{p}_2(1-\hat{p_2})}{n_2}}}
+			$
+		\end{center}
+	
+		Intervalo de Confiança é dado por:
+			\begin{center}
+				\Large
+				$
+				IC(p_1-p_2, 1-\alpha) = (\hat{p}_1 - \hat{p}_2) \pm z_{\frac{\alpha}{2}}\sqrt{\frac{\hat{p}_1(1-\hat{p_1})}{n_1} + \frac{\hat{p}_2(1-\hat{p_2})}{n_2}}
+				$
+			\end{center}
+
+\subsection{Teste de Hipóteses para duas médias}
+	\textbf{Caso 1:} Variâncias diferentes e conhecias\\
+	Temos interesse em testar as hipóteses
+		\begin{center}
+			\Large
+			$
+			H_0: \mu_1 - \mu_2 = \Delta_0 
+			$\\VS\\
+			$
+			H_A: \mu_1 - \mu_2 \neq \Delta_0 
+			$\\
+			$
+			H_A: \mu_1 - \mu_2 < \Delta_0 
+			$\\
+			$
+			H_A: \mu_1 - \mu_2 > \Delta_0 
+			$
+		\end{center}
+	\textbf{Estatística do Teste}
+		\begin{center}
+			\Large
+			$
+			z_{obs} = \frac{(\bar{X} - \bar{Y}) - (\mu_1-\mu_2)}{\sqrt{\frac{\sigma^2_1}{n} + \frac{\sigma^2_2}{m}}} \sim N(0, 1)
+			$
+		\end{center}
+	Depois de calcular a Estatística do Teste, o próximo passo é calcular o \textit{valor-de-p} e comparar com o nível de significância.\\
+	
+	\textbf{Caso 3:} Variâncias iguais e desconhecidas\\
+		\begin{center}
+			\Large
+			$
+			Sp^2 = \frac{(n-1)S^2_1 + (m-1)S^2_2}{n+m-2}
+			$
+		\end{center}
+	Prosseguir usando \textbf{t de student}
+\subsection{Teste de Hipóteses para Duas Proporções}
+	Considere $X_1, ..., X_{n1}$ e $Y_1, ..., Y_{n1}$ duas amostras independentes de ensaios de Bernoulli tal que $X \sim b(p_1)$ e $Y \sim b(p_2)$, com probabilidade $p_1$ e $p_2$ de apresentarem uma certa característica.
+	
+		\begin{center}
+			\Large
+			
+			$
+			H_0: p_1 - p_2 = 0 
+			$\\VS\\
+			$
+			H_A: p_1 - p_2 \neq 0 
+			$\\
+			$
+			H_A: p_1 - p_2 < 0 
+			$\\
+			$
+			H_A: p_1 - p_2 > 0 
+			$\\
+			
+			Para calcular a estatística do teste precisamos de:\\
+			$
+			\hat{p} = \frac{n_1\hat{p}_1 + n_2\hat{p_2}}{n_1 + n_2}
+			$
+			
+		\end{center} 
+	\textbf{Estatística do Teste}
+		\begin{center}
+			\Large
+			$
+			z = \frac{\hat{p}_1 - \hat{p}_2}{\sqrt{\hat{p}(1-\hat{p})(\frac{1}{n_1}+\frac{1}{n_2})}}\sim N(0, 1)
+			$
+		\end{center}
+		
+
+
+
+
+
+
+
+
 	
 \end{document}

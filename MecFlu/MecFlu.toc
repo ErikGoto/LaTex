@@ -1,36 +1,51 @@
 \babel@toc {brazilian}{}
-\contentsline {section}{\numberline {1}Conceitos Fundamentais}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Tensão}{2}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Tensão de Deformação}{2}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Tensão x Deformação}{2}{subsubsection.1.1.2}%
-\contentsline {section}{\numberline {2}Estática dos Fluidos}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Lei de Stervin}{4}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Teorema de Transporte de Reynolds}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Conservação de Massa}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Conservação de Quantidade de Movimento - Referencial Inercial}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Conservação de Quantidade de Movimento - Referencial Não Inercial}{5}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Conservação do Momento da Quantidade de Movimento}{5}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Conservação de Energia}{6}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Trabalho da Bomba}{6}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Eq. de Bernoulli}{6}{subsection.3.7}%
-\contentsline {section}{\numberline {4}Análise Dimensional}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Protótipo x Modelo}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Dimensões de Algumas Grandezas Físicas}{6}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Teorema dos $\pi $ de Buckingham}{6}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Matriz Dimensional}{7}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Formando os $\pi $'s}{7}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Cuidados}{8}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}Procedimento}{8}{subsubsection.4.3.4}%
-\contentsline {section}{\numberline {5}Semelhança}{8}{section.5}%
-\contentsline {section}{\numberline {6}Escoamento Interno}{9}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Comprimento de Desenvolvimento}{10}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Perfil de Velocidade num Tubo}{11}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Coeficiente de Energia Cinética}{11}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Introdução Perda de Carga Localizada e Distribuída}{12}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Perda de Carga Distribuída}{13}{subsection.6.5}%
-\contentsline {subsubsection}{\numberline {6.5.1}Rugosidade Relativa}{13}{subsubsection.6.5.1}%
-\contentsline {subsubsection}{\numberline {6.5.2}Diagrama de Moody}{13}{subsubsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.6}Perda de Carga Localizada}{14}{subsection.6.6}%
-\contentsline {subsubsection}{\numberline {6.6.1}Contrações e Expansões}{14}{subsubsection.6.6.1}%
-\contentsline {subsubsection}{\numberline {6.6.2}Curvas, Válvulas, etc}{14}{subsubsection.6.6.2}%
-\contentsline {subsubsection}{\numberline {6.6.3}Entradas e Saídas}{16}{subsubsection.6.6.3}%
+\contentsline {section}{\numberline {1}Conceitos Fundamentais}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Tensão}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Tensão de Deformação}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Tensão x Deformação}{3}{subsubsection.1.1.2}%
+\contentsline {section}{\numberline {2}Estática dos Fluidos}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Lei de Stervin}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Referencial não Inercial}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Superfícies em Rotação}{6}{subsubsection.2.2.1}%
+\contentsline {section}{\numberline {3}Teorema de Transporte de Reynolds}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Conservação de Massa}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Conservação de Quantidade de Movimento - Referencial Inercial}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Conservação de Quantidade de Movimento - Referencial Não Inercial}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Conservação do Momento da Quantidade de Movimento}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Conservação de Energia}{8}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Trabalho da Bomba}{8}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Eq. de Bernoulli}{8}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Análise Dimensional}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Protótipo x Modelo}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Dimensões de Algumas Grandezas Físicas}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Teorema dos $\pi $ de Buckingham}{9}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Matriz Dimensional}{9}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Formando os $\pi $'s}{10}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Cuidados}{10}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Procedimento}{10}{subsubsection.4.3.4}%
+\contentsline {section}{\numberline {5}Semelhança}{10}{section.5}%
+\contentsline {section}{\numberline {6}Escoamento Interno}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Comprimento de Desenvolvimento}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Perfil de Velocidade num Tubo}{13}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Coeficiente de Energia Cinética}{14}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Introdução Perda de Carga Localizada e Distribuída}{14}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Perda de Carga Distribuída}{15}{subsection.6.5}%
+\contentsline {subsubsection}{\numberline {6.5.1}Rugosidade Relativa}{15}{subsubsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.2}Diagrama de Moody}{15}{subsubsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.3}Equação de Colebrook-White}{15}{subsubsection.6.5.3}%
+\contentsline {subsection}{\numberline {6.6}Perda de Carga Localizada}{16}{subsection.6.6}%
+\contentsline {subsubsection}{\numberline {6.6.1}Contrações e Expansões}{16}{subsubsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.2}Curvas, Válvulas, etc}{16}{subsubsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.3}Entradas e Saídas}{18}{subsubsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.7}Rede de Tubulações}{18}{subsection.6.7}%
+\contentsline {subsubsection}{\numberline {6.7.1}Exemplo}{19}{subsubsection.6.7.1}%
+\contentsline {section}{\numberline {7}Escoamento Externo}{20}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Teoria da Camada Limite}{20}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Equação Integral da Camada Limite}{20}{subsubsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.2}Camada Limite - Placa Plana}{21}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Placa plana: Laminar}{22}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Placa Plana: Turbulento}{22}{subsubsection.7.2.2}%
+\contentsline {section}{\numberline {8}Corpo Rombudo}{22}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Força Resultante no Corpo}{23}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Arrasto de Forma(Presão)}{23}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Coeficiente de Sustentação}{24}{subsection.8.3}%

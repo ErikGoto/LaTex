@@ -1,0 +1,13 @@
+\babel@toc {brazilian}{}
+\contentsline {section}{\numberline {1}RTOS}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Alguns Conceitos}{3}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Instalação SDK RTOS no Linux}{3}{section.2}%
+\contentsline {section}{\numberline {3}Conceitos sobre Corrente Alternada}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Cargas Resistivas}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Cargas Parcialmente Reativas}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Energia Real, Energia Reativa, Energia Aparente}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Definições Matemáticas}{6}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Energia Ativa}{6}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Tensão e Corrente RMS}{6}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Energia Aparante e Fator de Energia}{6}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Fontes}{7}{section.4}%

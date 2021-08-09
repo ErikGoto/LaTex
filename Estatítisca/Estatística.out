@@ -53,3 +53,23 @@
 \BOOKMARK [2][-]{subsection.4.7}{Aproxima\347\343o Normal para uma Binomial}{section.4}% 53
 \BOOKMARK [1][-]{section.5}{Distribui\347\343o Amostral}{}% 54
 \BOOKMARK [2][-]{subsection.5.1}{Teorema do Limite Central}{section.5}% 55
+\BOOKMARK [1][-]{section.6}{Intervalo de Confian\347a}{}% 56
+\BOOKMARK [2][-]{subsection.6.1}{Intervalo de Confian\347a para p}{section.6}% 57
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Como encontrar z/2?}{subsection.6.1}% 58
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Interpreta\347\343o do Intervalo de Confian\347a}{subsection.6.1}% 59
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Tamanho da Amostra para Estimar p}{subsection.6.1}% 60
+\BOOKMARK [2][-]{subsection.6.2}{Intervalo de Confian\347a para a m\351dia populacional }{section.6}% 61
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Interpreta\347\343o do Intervalo de Confian\347a para \040}{subsection.6.2}% 62
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Tamanho da Amostra}{subsection.6.2}% 63
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Interpreta\347\343o do Intervalo de Confian\347a para \040: \040 desconhecido }{subsection.6.2}% 64
+\BOOKMARK [1][-]{section.7}{Teste de Hip\363teses}{}% 65
+\BOOKMARK [2][-]{subsubsection.7.0.1}{Valor-de-p}{section.7}% 66
+\BOOKMARK [3][-]{subsubsection.7.0.2}{Estat\355stica do Teste}{subsubsection.7.0.1}% 67
+\BOOKMARK [2][-]{subsection.7.1}{Teste de Hip\363teses para a m\351dia \040conhecido}{section.7}% 68
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Regi\343o Cr\355tica}{subsection.7.1}% 69
+\BOOKMARK [2][-]{subsection.7.2}{Teste de Hip\363teses para m\351dia\( desconhecido\)}{section.7}% 70
+\BOOKMARK [1][-]{section.8}{Infer\352ncia para duas popula\347\365es }{}% 71
+\BOOKMARK [2][-]{subsection.8.1}{Intervalo de Confian\347a para Duas M\351dias}{section.8}% 72
+\BOOKMARK [2][-]{subsection.8.2}{Intervalo de Confian\347a para Duas Propor\347\365es}{section.8}% 73
+\BOOKMARK [2][-]{subsection.8.3}{Teste de Hip\363teses para duas m\351dias}{section.8}% 74
+\BOOKMARK [2][-]{subsection.8.4}{Teste de Hip\363teses para Duas Propor\347\365es}{section.8}% 75
