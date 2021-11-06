@@ -1,0 +1,20 @@
+\babel@toc {brazilian}{}
+\contentsline {section}{\numberline {1}Observação}{2}{section.1}%
+\contentsline {section}{\numberline {2}Fasores}{3}{section.2}%
+\contentsline {section}{\numberline {3}Impedância e Admitância}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Associação de Impedâncias}{3}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Série}{3}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Paralelo}{3}{subsubsection.3.1.2}%
+\contentsline {section}{\numberline {4}Potência em excitações senoidais}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Potência Média}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Valores Eficazes}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Fator de Potência}{4}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Correção do fator de Potência}{4}{subsubsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.4}Potência Complexa}{5}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Correção de $f_p$ em termos de potência}{5}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Sistemas Trifásicos}{5}{section.5}%
+\contentsline {section}{\numberline {6}Conexão em Y-Y}{7}{section.6}%
+\contentsline {section}{\numberline {7}Conexão em Delta}{7}{section.7}%
+\contentsline {section}{\numberline {8}Transformação Y - $\Delta $}{9}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Transformação de Y para $\Delta $}{9}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Transformação de $\Delta $ para Y}{9}{subsection.8.2}%

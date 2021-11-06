@@ -1,0 +1,18 @@
+\babel@toc {brazilian}{}
+\contentsline {section}{\numberline {1}Matrizes de transformação de coordenadas}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}De I para $B_1$}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}De $B_1$ para $B_2$}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Velocidade e aceleração angulares absolutas das bases}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Base $B_1$}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Velocidade angular}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Aceleração angular}{2}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Base $B_2$}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Velocidade angular}{2}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Aceleração angular}{3}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Vetores de aceleração linear absoluta das massas A e B}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Massa B}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Massa A}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Equilíbrio dinâmico das partículas}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Partícula B}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Partícula A}{5}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Método de Runge-Kutta}{6}{section.5}%
