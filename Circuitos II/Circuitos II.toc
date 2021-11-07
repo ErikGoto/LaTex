@@ -18,3 +18,23 @@
 \contentsline {section}{\numberline {8}Transformação Y - $\Delta $}{9}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Transformação de Y para $\Delta $}{9}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Transformação de $\Delta $ para Y}{9}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Quadripolos}{10}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Modelo de Impedâncias}{10}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Modelo de Admitância}{10}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Modelos com Parâmetros de Trnasmissão}{11}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Cálculo de ganhos}{11}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Circuitos Equivalente}{12}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Associação em paralelo}{12}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Associação em série}{13}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}Associação em cascata}{13}{subsection.9.8}%
+\contentsline {section}{\numberline {10}Transformadores}{14}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Primário e secundário em carga}{14}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Convenção do ponto}{14}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Impedância Refletida}{14}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Circuitos Equivalentes}{15}{subsection.10.4}%
+\contentsline {subsubsection}{\numberline {10.4.1}Circuito 1}{15}{subsubsection.10.4.1}%
+\contentsline {subsubsection}{\numberline {10.4.2}Circuito 2}{15}{subsubsection.10.4.2}%
+\contentsline {subsubsection}{\numberline {10.4.3}Circuito 3}{15}{subsubsection.10.4.3}%
+\contentsline {subsection}{\numberline {10.5}Armazenamento de Energia em Transformadores}{16}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Coeficiente de Acoplamento}{16}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}Transformador Ideal}{17}{subsection.10.7}%

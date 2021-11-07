@@ -1,0 +1,312 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[pdftex]{hyperref}
+\graphicspath{ {imagens/} }
+\usepackage{amsmath}
+
+\begin{document}
+%
+\begin{titlepage} %iniciando a "capa"
+	\begin{center} %centralizar o texto abaixo
+		{\large Unicamp}\\[0.2cm] %0,2cm é a distância entre o texto dessa linha e o texto da próxima
+		{\large Unicamp}\\[0.2cm] % o comando \\ "manda" o texto ir para próxima linha
+		{\large Marco Lucio Bittencourt - Turma B}\\[3.2cm]
+		{\bf \huge Dinâmica Trabalho 1}\\[0.2cm] 
+		{\bf \large Movimento Relativo: Matrizes de Rotação}\\[4.9cm]
+		% o comando \bf deixa o texto entre chaves em negrito. O comando \huge deixa o texto enorme
+	\end{center} %término do comando centralizar
+	{\large Erik Yuji Goto}\\[10cm] % o comando \large deixa o texto grande
+	\begin{center}
+	
+		{\large Campinas}\\[0.2cm]
+		{\large 2021}
+	\end{center}
+\end{titlepage} %término da "capa"
+
+
+\tableofcontents
+\newpage
+
+\section{Matrizes de transformação de coordenadas}
+	Das coordenadas móveis $B_1$ para o sistema inercial I:
+	\begin{equation}
+			T_\beta = \begin{bmatrix}
+			cos\beta & 0 & -sin\beta\\
+			0 & 1 & 0\\
+			sin\beta & 0 & cos\beta
+		\end{bmatrix}
+	\end{equation}
+	
+	Das coordenadas móveis $B_1$ para o sistema móvel $B_2$:
+	\begin{equation}
+			T_\lambda = \begin{bmatrix}
+			cos\lambda & 0 & -sin\lambda\\
+			0 & 1 & 0\\
+			sin\lambda & 0 & cos\lambda
+		\end{bmatrix}
+	\end{equation}
+
+\section{Velocidades angulares dos sistemas móveis de referência}
+	\subsection{Velocidade angular da base $B_1$ com eixo de rotação Y do sistema absoluto}
+	\begin{equation}
+		\omega^I_1 = 
+		\begin{Bmatrix}
+			0\\ \omega_1\\0\
+		\end{Bmatrix}
+	\end{equation}
+	
+	\subsection{Velocidade angular da base $B_2$ com eixo de rotação Y do sistema absoluto}
+	Primeiro representamos na base móvel $B_1$
+	\begin{equation}
+		\omega^{B_1}_2 = 
+		\begin{Bmatrix}
+			0\\ \omega_2 \\0
+		\end{Bmatrix}
+	\end{equation}
+	Transformando para as coordenadas inerciais:
+	\begin{equation}
+		\omega^I_2 = T^T_\beta \omega^{\beta 1}_2 = \begin{Bmatrix}
+			0\\
+			\omega_2\\
+			0
+		\end{Bmatrix}
+	\end{equation}
+	Agora que sabemos os valores dos vetores de velocidade angular das duas bases móveis podemos calcular a velocidade angular absoluta do sistema móvel $B_2$ ao somar os vetores $\omega_1$ e $\omega_2$:
+		\begin{equation}
+			\omega^I_{B_2} = \omega_1^I + \omega_2^I = \begin{Bmatrix}
+			0\\
+			\omega_1 + \omega_2\\
+			0
+		\end{Bmatrix}
+		\end{equation}
+		
+		
+\section{Acelerações angulares dos sistemas móveis de referência}
+	\subsection{Aceleração angular da base $B_1$ com eixo de rotação Y do sistema absoluto}
+	\begin{equation}
+		\alpha^I_1 = 
+		\begin{Bmatrix}
+			0\\ \alpha_1\\0\
+		\end{Bmatrix}
+	\end{equation}
+	
+	\subsection{Aceleração angular da base $B_2$ com eixo de rotação Y do sistema absoluto}
+	Primeiro representamos na base móvel $B_1$
+	\begin{equation}
+		\alpha^{B_1}_2 = 
+		\begin{Bmatrix}
+			0\\ \alpha_2 \\0
+		\end{Bmatrix}
+	\end{equation}
+	Transformando para as coordenadas inerciais:
+	\begin{equation}
+		\alpha^I_2 = T^T_\beta \alpha^{\beta 1}_2 = \begin{Bmatrix}
+			0\\
+			\alpha_2\\
+			0
+		\end{Bmatrix}
+	\end{equation}
+	Agora que sabemos os valores dos vetores de aceleração angular das duas bases móveis podemos calcular a aceleração angular absoluta do sistema móvel $B_2$ ao somar os vetores $\alpha_1$ e $\alpha_2$:
+		\begin{equation}
+			\alpha^I_{B_2} = \alpha_1^I + \alpha_2^I = \begin{Bmatrix}
+			0\\
+			\alpha_1 + \alpha_2\\
+			0
+		\end{Bmatrix}
+		\end{equation}
+		
+
+\section{Vetores posição}
+	\subsection{Vetor posição entre os pontos O e C no sistema inercial}
+		\begin{equation}
+			r^{B_1}_{OC} = \begin{Bmatrix}
+			0\\
+			c + a\\
+			-b 
+			\end{Bmatrix}
+			\Rightarrow
+			r^I_{OC} = T_\beta^T r^{B_1}_{OC} = 
+			\begin{Bmatrix}
+				-bsin\beta\\
+				c+a\\
+				-bcos\beta
+			\end{Bmatrix}
+		\end{equation}
+
+	\subsection{Vetor posição entre os pontos C e D no sistema inercial}
+		\begin{equation}
+			r^{B_2}_{CD} = \begin{Bmatrix}
+				r\\
+				0\\
+				0
+			\end{Bmatrix}\Rightarrow 
+			r^I_{CD} = T^T_\beta T^T_\lambda r^{B_2}_{CD} = \begin{Bmatrix}
+				rcos\lambda cos\beta + rsin \lambda sin \beta\\
+				0\\
+				r cos \lambda sin \beta - rsin\lambda cos \beta
+			\end{Bmatrix}
+		\end{equation}
+
+		A posição do ponto D em relação ao sistema inercial será:
+		\begin{equation}
+			r^I_{OD} = r^I_{OC} + r^I_{CD} = \begin{Bmatrix}
+				rcos\lambda cos\beta + rsin \lambda sin \beta -bsin\beta \\
+				c+a\\
+				r cos \lambda sin \beta - rsin\lambda cos \beta -bcos\beta
+			\end{Bmatrix}
+		\end{equation}
+
+\section{Velocidade linear absoluta do ponto D}
+	A velocidade linear absoluta é calculada por:
+	\begin{equation}
+		v_D^I = \underbrace{v_C^I}_\text{I} + \underbrace{\dot{\omega}^I_{B_2} \times r^I_{CD}}_\textbf{II} + \underbrace{v^I_{CD}}_\text{III}
+ 	\end{equation}
+	
+I. Velocidade absoluta da origem C do sistema de referência $B_2$;\\
+
+II. Velocidade tangencial;\\
+
+III. Velocidade relativa entre o ponto C e D, note que o vetor posição $\vec{CD}$ é constante portanto, a velocidade relativa é igua a zero. $v^I_{CD} = 0$.\\
+
+	\textbf{Velocidade absoluta do ponto C - Origem do sistema móvel}
+		\begin{equation}
+			v_C^I = v_O^I + \dot{\omega}^I_1 \times r^I_{OC} + v^I_{OC}
+		\end{equation}
+		
+		Note que, $v_O^I = 0$, pois o ponto O é o centro do sistema inercial. Além disso, $v^I_{OC} = 0$ já que $\vec{OC}$ é constante.\\
+		
+		Concluímos que a velocidade absoluta do ponto C é dada por:
+		\begin{equation}
+			v_C^I = \dot{\omega}^I_1 \times r^I_{OC} = \begin{Bmatrix}
+			-\omega_1bcos\beta\\
+			0\\
+			\omega_1bsin\beta
+			\end{Bmatrix}
+		\end{equation}
+		
+	\textbf{Velocidade Tangencial}
+	
+		O vetor valocidade tangencial é dado por:
+		\begin{equation}
+			\dot{\omega}^I_{B_2} \times r^I_{CD} = \begin{Bmatrix}
+			(\omega_1 + \omega_{B_2})r cos \lambda sin \beta - rsin\lambda cos \beta\\
+			0\\
+			-(\omega_1 + \omega_{B_2})rcos\lambda cos\beta + rsin \lambda sin \beta
+			\end{Bmatrix}
+		\end{equation}
+		
+		Agora que sabemos os componentes da velocidade tangencial e velocidade do ponto C conseguimos encontrar a velocidade absoluta do ponto D:
+		\begin{equation}
+			v_D^I = \begin{Bmatrix}
+			(\omega_1 + \omega_{B_2})r cos \lambda sin \beta - rsin\lambda cos \beta -\omega_1bcos\beta \\
+			0\\
+			-(\omega_1 + \omega_{B_2})rcos\lambda cos\beta + rsin \lambda sin \beta + \omega_1bsin\beta
+			\end{Bmatrix}
+		\end{equation}
+		
+		
+\section{Aceleração linear absoluta do ponto D}
+	A aceleração linear absoluta é calculada por:
+	\begin{equation}
+		a^I_D = a^I_C + \dot{\omega}^I_{B_2} \times \dot{\omega}^I_{B_2} \times r^I_{CD} + \ddot{\omega}^I_{B_2} \times r^I_{CD} + 2 \dot{\omega}^I_{B_2} \times v^I_{CD} + a^I_{CD}
+	\end{equation}
+		
+	Podemos simplificar a equação acima:
+		\begin{itemize}
+			\item O vetor posição $\vec{CD}$ é constante
+				\begin{itemize}
+					\item $v^I_{CD} = 0$
+					\item $a^I_{CD} = 0$
+				\end{itemize} 						
+		\end{itemize}
+		
+		A equação final para a aceleração aplicada ao nosso problema fica:
+		\begin{equation}
+			a^I_D = \underbrace{a^I_C}_\text{I} + \underbrace{\dot{\omega}^I_{B_2} \times \dot{\omega}^I_{B_2} \times r^I_{CD}}_\text{II} + \underbrace{\ddot{\omega}^I_{B_2} \times r^I_{CD}}_\text{III}
+		\end{equation}
+		
+		I. Aceleração absoluta do ponto C\\
+		
+		II. Aceleração normal do ponto D\\
+		
+		III. Aceleração tangencial\\
+		
+		\textbf{Aceleração absoluta do ponto C}
+		
+		\begin{equation}
+			a^I_C = a^I_O + \dot{\omega}^I_1 \times \dot{\omega}^I_1 \times r^I_{OC} + \ddot{\omega}^I_1 \times r^I_{OC} + 2 \dot{\omega}^I_1 \times v^I_{OC} + a^I_{OC}
+		\end{equation}
+		
+		Para simplificar a equação acima vamos usar como hipósteses:
+		\begin{itemize}
+			\item O vetor posição $\vec{OC}$ é constante
+				\begin{itemize}
+					\item $v^I_{OC} = 0$	
+					\item $a^I_{OC} = 0$
+				\end{itemize}
+			\item O ponto O é origem do sistema inercial
+				\begin{itemize}
+					\item $a^I_{O} = 0$	
+				\end{itemize}								
+		\end{itemize}				
+		Portanto, a aceleração do ponto C é dada por:
+		\begin{equation}
+			a^I_C = \dot{\omega}^I_1 \times \dot{\omega}^I_1 \times r^I_{OC} + \ddot{\omega}^I_1 \times r^I_{OC}= \begin{Bmatrix}
+			\omega^2_1 bsin\beta -\alpha_1 bcos\beta\\
+			0\\
+			\omega^2_1 b cos \beta + \alpha_1 b sen \beta
+			\end{Bmatrix} 
+		\end{equation}
+		
+		\textbf{Aceleração Normal do ponto D}
+			\begin{equation}
+				\dot{\omega}^I_{B_2} \times \dot{\omega}^I_{B_2} \times r^I_{CD} = \begin{Bmatrix}
+					-(\omega_1 + \omega_2)^2(rcos \lambda cos \beta + r sen \lambda sen \beta)\\
+					0\\
+					-(\omega_1 + \omega_2)^2(r cos \lambda sen \beta - r sen \lambda cos \beta)
+				\end{Bmatrix}
+			\end{equation}
+			
+		\textbf{Aceleração Tangencial do ponto D}
+			\begin{equation}
+				\ddot{\omega}^I_{B_2} \times r^I_{CD} = 
+				\begin{Bmatrix}
+					(\alpha_1 + \alpha_2)(r cos \lambda sen \beta - r sen \lambda cos \beta)\\
+					0\\
+					-(\alpha_1 + \alpha_2)(rcos \lambda cos \beta + r sen \lambda sen \beta)
+				\end{Bmatrix}
+			\end{equation}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+\end{document}
