@@ -495,11 +495,37 @@
 		\end{equation}
 
 	\subsection{Equações de Newton-Euler para corpos rígidos em movimento tridimensional}
+	\subsubsection{Equações de Newton-Euler para corpos rígidos em movimento tridimensional de rotação em torno de um eixo fixo}
+		\begin{figure}[h]
+			\center
+			\includegraphics[scale=0.5]{imagens/a8.png} 
+			\caption{Corpo rígido desenvolvendo movimento tridimensional de rotação em torno de um eixo fixo}
+		\end{figure}
+		\begin{equation}
+			\{H_O\} = [J_{OXYZ}]\{\omega \}
+		\end{equation}
+		Pelo teorema dos eixos paralelos:
+		\begin{equation}
+			[J_{OXYZ}] = \begin{bmatrix}
+			J_{x'} & -P_{x'y'} & -P_{x'z'}\\
+			-P_{x'y'} & J_{y'} & -P_{y'z'}\\
+			-p_{x'z'} & -P_{y'z'} & J_{z'}
+			\end{bmatrix} + m\begin{bmatrix}
+			 Y_G^2 + Z^2_G & -X_GY_G & -X_GZ_G\\
+			 -X_GY_G & X^2_G+Z^2_G & -Y_GZ_G\\
+			 -X_GZ_G & -Y_GZ_G & X^2_G + Y_G^2
+			\end{bmatrix}
+		\end{equation}
+		Ao derivar $\{H_O\}$, temos a seguinte relação
+		\begin{equation}
+			\sum \{M_O\} = [J_{OX_1Y_1Z_1}]\frac{d\{\omega \}}{dt}|_{Ox1y1z1} + \{\omega \} \times \{H_O\}
+		\end{equation}
+		E para as forças
+		\begin{equation}
+			\sum F = ma_G
+		\end{equation}
 
-
-
-
-
+		\subsubsection{Introdução do movimento de giroscópios}
 
 
 

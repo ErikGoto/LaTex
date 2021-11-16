@@ -36,3 +36,5 @@
 \contentsline {subsection}{\numberline {9.4}Equações de Newton-Euler para corpos rígidos em movimento plano}{16}{subsection.9.4}%
 \contentsline {subsubsection}{\numberline {9.4.1}Equações de Newton-Euler para o movimento plano de rotação baricêntrica}{16}{subsubsection.9.4.1}%
 \contentsline {subsubsection}{\numberline {9.4.2}Equações de Newton-Euler para o movimento plano de rotação não baricêntrica}{17}{subsubsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.5}Equações de Newton-Euler para corpos rígidos em movimento tridimensional}{17}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {9.5.1}Equações de Newton-Euler para corpos rígidos em movimento tridimensional de rotação em torno de um eixo fixo}{17}{subsubsection.9.5.1}%
