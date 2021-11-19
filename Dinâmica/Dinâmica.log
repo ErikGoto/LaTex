@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.9)  16 NOV 2021 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.9)  19 NOV 2021 20:47
 entering extended mode
 **./Dinâmica.tex
 (Dinâmica.tex
@@ -432,23 +432,23 @@ l.39 ...imento tridimensional}{17}{subsection.9.5}
 \openout4 = `Dinâmica.toc'.
 
  [2]
-<imagens/mr.png, id=220, 390.70969pt x 411.03563pt>
+<imagens/mr.png, id=249, 390.70969pt x 411.03563pt>
 File: imagens/mr.png Graphic file (type png)
 <use imagens/mr.png>
 Package pdftex.def Info: imagens/mr.png  used on input line 78.
 (pdftex.def)             Requested size: 175.81773pt x 184.96432pt.
-<imagens/c.png, id=221, 342.5297pt x 262.73157pt>
+<imagens/c.png, id=250, 342.5297pt x 262.73157pt>
 File: imagens/c.png Graphic file (type png)
 <use imagens/c.png>
 Package pdftex.def Info: imagens/c.png  used on input line 93.
 (pdftex.def)             Requested size: 171.26442pt x 131.36545pt.
  [3 <./imagens/mr.png (PNG copy)>]
-<imagens/t.png, id=236, 351.56343pt x 258.21469pt>
+<imagens/t.png, id=265, 351.56343pt x 258.21469pt>
 File: imagens/t.png Graphic file (type png)
 <use imagens/t.png>
 Package pdftex.def Info: imagens/t.png  used on input line 104.
 (pdftex.def)             Requested size: 175.78128pt x 129.10703pt.
-<imagens/pol.png, id=237, 415.5525pt x 293.59688pt>
+<imagens/pol.png, id=266, 415.5525pt x 293.59688pt>
 File: imagens/pol.png Graphic file (type png)
 <use imagens/pol.png>
 Package pdftex.def Info: imagens/pol.png  used on input line 116.
@@ -458,13 +458,13 @@ Package pdftex.def Info: imagens/pol.png  used on input line 116.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4 <./imagens/c.png (PNG copy)> <./imagens/t.png (PNG copy)>]
-<imagens/cc.png, id=252, 373.395pt x 236.38312pt>
+<imagens/cc.png, id=281, 373.395pt x 236.38312pt>
 File: imagens/cc.png Graphic file (type png)
 <use imagens/cc.png>
 Package pdftex.def Info: imagens/cc.png  used on input line 146.
 (pdftex.def)             Requested size: 186.69704pt x 118.19127pt.
  [5 <./imagens/pol.png (PNG copy)> <./imagens/cc.png (PNG copy)>]
-<imagens/ccc.png, id=260, 727.21687pt x 529.22719pt>
+<imagens/ccc.png, id=289, 727.21687pt x 529.22719pt>
 File: imagens/ccc.png Graphic file (type png)
 <use imagens/ccc.png>
 Package pdftex.def Info: imagens/ccc.png  used on input line 152.
@@ -474,46 +474,46 @@ File: imagens/cc.png Graphic file (type png)
 Package pdftex.def Info: imagens/cc.png  used on input line 159.
 (pdftex.def)             Requested size: 186.69704pt x 118.19127pt.
  [6 <./imagens/ccc.png (PNG copy)>]
-<imagens/e.png, id=270, 327.47343pt x 276.28218pt>
+<imagens/e.png, id=299, 327.47343pt x 276.28218pt>
 File: imagens/e.png Graphic file (type png)
 <use imagens/e.png>
 Package pdftex.def Info: imagens/e.png  used on input line 171.
 (pdftex.def)             Requested size: 163.73631pt x 138.14075pt.
-<imagens/ee.png, id=271, 306.39468pt x 377.91188pt>
+<imagens/ee.png, id=300, 306.39468pt x 377.91188pt>
 File: imagens/ee.png Graphic file (type png)
 <use imagens/ee.png>
 Package pdftex.def Info: imagens/ee.png  used on input line 180.
 (pdftex.def)             Requested size: 153.19696pt x 188.95547pt.
  [7 <./imagens/e.png (PNG copy)> <./imagens/ee.png (PNG copy)>]
-<imagens/r.png, id=279, 292.09125pt x 249.18094pt>
+<imagens/r.png, id=308, 292.09125pt x 249.18094pt>
 File: imagens/r.png Graphic file (type png)
 <use imagens/r.png>
 Package pdftex.def Info: imagens/r.png  used on input line 190.
 (pdftex.def)             Requested size: 146.04526pt x 124.59015pt.
-<imagens/rr.png, id=280, 327.47343pt x 205.5178pt>
+<imagens/rr.png, id=309, 327.47343pt x 205.5178pt>
 File: imagens/rr.png Graphic file (type png)
 <use imagens/rr.png>
 Package pdftex.def Info: imagens/rr.png  used on input line 203.
 (pdftex.def)             Requested size: 163.73631pt x 102.75865pt.
  [8 <./imagens/r.png (PNG copy)> <./imagens/rr.png (PNG copy)>]
-<imagens/ra.png, id=292, 351.56343pt x 283.0575pt>
+<imagens/ra.png, id=321, 351.56343pt x 283.0575pt>
 File: imagens/ra.png Graphic file (type png)
 <use imagens/ra.png>
 Package pdftex.def Info: imagens/ra.png  used on input line 216.
 (pdftex.def)             Requested size: 175.78128pt x 141.5284pt.
-<imagens/a.png, id=293, 458.46281pt x 322.20375pt>
+<imagens/a.png, id=322, 458.46281pt x 322.20375pt>
 File: imagens/a.png Graphic file (type png)
 <use imagens/a.png>
 Package pdftex.def Info: imagens/a.png  used on input line 240.
 (pdftex.def)             Requested size: 229.23083pt x 161.10147pt.
  [9 <./imagens/ra.png (PNG copy)> <./imagens/a.png (PNG copy)>]
-<imagens/a1.png, id=306, 234.8775pt x 257.46187pt>
+<imagens/a1.png, id=335, 234.8775pt x 257.46187pt>
 File: imagens/a1.png Graphic file (type png)
 <use imagens/a1.png>
 Package pdftex.def Info: imagens/a1.png  used on input line 250.
 (pdftex.def)             Requested size: 117.43846pt x 128.7306pt.
  [10 <./imagens/a1.png (PNG copy)>]
-<imagens/a2.png, id=318, 315.42844pt x 307.90031pt>
+<imagens/a2.png, id=347, 315.42844pt x 307.90031pt>
 File: imagens/a2.png Graphic file (type png)
 <use imagens/a2.png>
 Package pdftex.def Info: imagens/a2.png  used on input line 269.
@@ -524,12 +524,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
  []
 
 [11 <./imagens/a2.png (PNG copy)>]
-<imagens/a3.png, id=329, 448.67625pt x 303.38344pt>
+<imagens/a3.png, id=358, 448.67625pt x 303.38344pt>
 File: imagens/a3.png Graphic file (type png)
 <use imagens/a3.png>
 Package pdftex.def Info: imagens/a3.png  used on input line 300.
 (pdftex.def)             Requested size: 224.33757pt x 151.69135pt.
-<imagens/a4.png, id=330, 395.97937pt x 307.90031pt>
+<imagens/a4.png, id=359, 395.97937pt x 307.90031pt>
 File: imagens/a4.png Graphic file (type png)
 <use imagens/a4.png>
 Package pdftex.def Info: imagens/a4.png  used on input line 317.
@@ -544,7 +544,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
-<imagens/a5.png, id=343, 461.47406pt x 356.0803pt>
+<imagens/a5.png, id=372, 461.47406pt x 356.0803pt>
 File: imagens/a5.png Graphic file (type png)
 <use imagens/a5.png>
 Package pdftex.def Info: imagens/a5.png  used on input line 352.
@@ -560,13 +560,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 379--380
  []
 
 [13 <./imagens/a5.png (PNG copy)>] [14]
-<imagens/a6.png, id=364, 330.48468pt x 308.65312pt>
+<imagens/a6.png, id=393, 330.48468pt x 308.65312pt>
 File: imagens/a6.png Graphic file (type png)
 <use imagens/a6.png>
 Package pdftex.def Info: imagens/a6.png  used on input line 404.
 (pdftex.def)             Requested size: 165.24193pt x 154.32617pt.
  [15 <./imagens/a6.png (PNG copy)>]
-<imagens/a7.png, id=385, 349.305pt x 309.40594pt>
+<imagens/a7.png, id=414, 349.305pt x 309.40594pt>
 File: imagens/a7.png Graphic file (type png)
 <use imagens/a7.png>
 Package pdftex.def Info: imagens/a7.png  used on input line 446.
@@ -577,23 +577,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 483--484
 
  []
 
-<imagens/a8.png, id=398, 398.99063pt x 316.18124pt>
+<imagens/a8.png, id=427, 398.99063pt x 316.18124pt>
 File: imagens/a8.png Graphic file (type png)
 <use imagens/a8.png>
 Package pdftex.def Info: imagens/a8.png  used on input line 501.
 (pdftex.def)             Requested size: 199.49483pt x 158.09023pt.
-[17 <./imagens/a8.png>] (Dinâmica.aux)
-Package rerunfilecheck Info: File `Dinâmica.out' has not changed.
-(rerunfilecheck)             Checksum: 51DD39EE592FB6B76389CB7B36662F14;12054.
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+
+ []
+
+[17 <./imagens/a8.png>]
+<imagens/a9.png, id=443, 334.24875pt x 349.305pt>
+File: imagens/a9.png Graphic file (type png)
+<use imagens/a9.png>
+Package pdftex.def Info: imagens/a9.png  used on input line 534.
+(pdftex.def)             Requested size: 167.12396pt x 174.65207pt.
+<imagens/a10.png, id=444, 761.09344pt x 328.97906pt>
+File: imagens/a10.png Graphic file (type png)
+<use imagens/a10.png>
+Package pdftex.def Info: imagens/a10.png  used on input line 550.
+(pdftex.def)             Requested size: 532.7618pt x 230.28377pt.
+
+Overfull \hbox (77.51768pt too wide) in paragraph at lines 550--551
+ [] 
+ []
+
+<imagens/a11.png, id=445, 369.63094pt x 213.04594pt>
+File: imagens/a11.png Graphic file (type png)
+<use imagens/a11.png>
+Package pdftex.def Info: imagens/a11.png  used on input line 557.
+(pdftex.def)             Requested size: 258.73988pt x 149.13113pt.
+[18 <./imagens/a9.png> <./imagens/a10.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 572--574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
+
+ []
+
+[19 <./imagens/a11.png>]
+<imagens/b1.png, id=466, 475.7775pt x 323.70938pt>
+File: imagens/b1.png Graphic file (type png)
+<use imagens/b1.png>
+Package pdftex.def Info: imagens/b1.png  used on input line 584.
+(pdftex.def)             Requested size: 333.04196pt x 226.59502pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--610
+
+ []
+
+<imagens/b2.png, id=467, 807.015pt x 268.00125pt>
+File: imagens/b2.png Graphic file (type png)
+<use imagens/b2.png>
+Package pdftex.def Info: imagens/b2.png  used on input line 625.
+(pdftex.def)             Requested size: 564.90665pt x 187.59958pt.
+
+Overfull \hbox (109.66254pt too wide) in paragraph at lines 625--626
+ [] 
+ []
+
+[20 <./imagens/b1.png>]
+<imagens/b3.png, id=481, 810.77907pt x 368.1253pt>
+File: imagens/b3.png Graphic file (type png)
+<use imagens/b3.png>
+Package pdftex.def Info: imagens/b3.png  used on input line 629.
+(pdftex.def)             Requested size: 567.54149pt x 257.68596pt.
+
+Overfull \hbox (112.29738pt too wide) in paragraph at lines 629--630
+ [] 
+ []
+
+<imagens/b4.png, id=482, 806.26219pt x 361.35pt>
+File: imagens/b4.png Graphic file (type png)
+<use imagens/b4.png>
+Package pdftex.def Info: imagens/b4.png  used on input line 633.
+(pdftex.def)             Requested size: 564.37968pt x 252.94327pt.
+
+Overfull \hbox (109.13557pt too wide) in paragraph at lines 633--634
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagens/b5.png, id=483, 809.27344pt x 334.24875pt>
+File: imagens/b5.png Graphic file (type png)
+<use imagens/b5.png>
+Package pdftex.def Info: imagens/b5.png  used on input line 637.
+(pdftex.def)             Requested size: 566.48755pt x 233.97252pt.
+
+Overfull \hbox (111.24344pt too wide) in paragraph at lines 637--638
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21 <./imagens/b2.png> <./imagens/b3.png>] [22 <./imagens/b4.png> <./imagens/b5
+.png>] (Dinâmica.aux)
+
+Package rerunfilecheck Warning: File `Dinâmica.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Dinâmica.out':
+(rerunfilecheck)             Before: 2F99F74FF0428CC24C8988B7D986AC41;14704
+(rerunfilecheck)             After:  DCE64716B1F2AF79BE43BB5B210D98CA;15069.
  ) 
 Here is how much of TeX's memory you used:
- 10175 strings out of 478864
- 151676 string characters out of 2848661
- 492192 words of memory out of 3000000
- 27795 multiletter control sequences out of 15000+600000
+ 10264 strings out of 478864
+ 153093 string characters out of 2848661
+ 492195 words of memory out of 3000000
+ 27849 multiletter control sequences out of 15000+600000
  410535 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,66p,727b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,66p,814b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\55189\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/55189/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/55189/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -611,9 +712,9 @@ onts/cm/cmsy10.pfb><C:/Users/55189/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy6.pfb><C:/Users/55189/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/55189/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dinâmica.pdf (18 pages, 1440524 bytes).
+Output written on Dinâmica.pdf (23 pages, 1970396 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 149 named destinations out of 1000 (max. 500000)
- 413 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 597 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 493 words of extra memory for PDF output out of 10000 (max. 10000000)
 

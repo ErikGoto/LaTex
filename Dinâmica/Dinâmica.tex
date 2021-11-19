@@ -526,31 +526,116 @@
 		\end{equation}
 
 		\subsubsection{Introdução do movimento de giroscópios}
+		Um giroscópio consiste, essencialmente, de um corpo com simetria de revolução (axissimetria), que pode girar livremente em torno de um ou mais de seus eixos.\\
+		
+		Os ângulos $\phi , \theta , \psi$ são conhecidos como ângulos de Euler e suas taxas de variação temporais  $\dot{\phi} , \dot{\theta} , \dot{\psi}$ são, respectivamente, os movimentos de \textit{precessão, nutação e rotação própria}.
+		\begin{figure}[h]
+			\center
+			\includegraphics[scale=0.5]{imagens/a9.png} 
+			\caption{Ângulos de Euler para o giroscópio}
+		\end{figure}
+		
+		Sendo $z_1$ o eixo em relação ao qual o disco apresenta simetria de revolução, o tensor de inércia do disco em relação ao sistema de referência $G_{x_1y_1z_1}$ tem a forma:
+		\begin{equation}
+			[J_{G_{x_1y_1z_1}}] = \begin{bmatrix}
+			J & 0 & 0\\
+			0 & J & 0\\
+			0 & 0 & J_p
+			\end{bmatrix}
+		\end{equation}
 
+		As equações de newton euler ficam:
+		\begin{figure}[h]
+			\center
+			\includegraphics[scale=0.7]{imagens/a10.png} 
+			\caption{Equações de Newton-Euler para o giroscópio}
+		\end{figure}
 
+		Na \textbf{precessão estacionária de giroscópios} o ângulo $\theta$ é mantido fixo e as taxas de precessão $\phi$ e de rotação própria $\psi$ são constantes, temos:
+		 \begin{figure}[h]
+			\center
+			\includegraphics[scale=0.7]{imagens/a11.png} 
+			\caption{Precessão estacionária}
+		\end{figure}
 
+		\subsubsection{Princípio do Impulso-Quantidade de Movimento para os corpos rígidos. Conservação das quantidades de movimento linear e angular}
+		Para um corpo rígido temos:
+		\begin{equation}
+			\vec{L}(t_2) = \vec{L}(t_1) + \int^{t_2}_{t_1} \sum \vec{F}dt
+		\end{equation}
+		\begin{equation}
+			\vec{H_O}(t_2) = \vec{H_O}(t_1) + \int^{t_2}_{t_1} \sum \vec{M_O}dt
+		\end{equation}
+		Ou, para o CG
+		\begin{equation}
+			\vec{H_G}(t_2) = \vec{H_G}(t_1) + \int^{t_2}_{t_1} \sum \vec{M_G}dt
+		\end{equation}
+		Com $\{H_G(t)\} = [J_{G_{x'y'z'}}]\{\omega (t)\}$\\
+		
+		\textbf{Movimento plano de rotação não baricêntrica}\\
+		\begin{equation}
+			J_Z\omega_1 + \int^{t_2}_{t_1} \sum M_Odt = J_Z \omega_2
+		\end{equation}
 
+		\newpage
+		\subsubsection{Princípio do Impulso-Quantidade de Movimento para corpos rígidos em movimento de rotação em torno de um eixo fixo}
+		\begin{figure}[h]
+			\center
+			\includegraphics[scale=0.7]{imagens/b1.png} 
+			\caption{Movimento de rotação em torno de um eixo fixo}
+		\end{figure}
+		\begin{equation}
+			\vec{H_O}|_1 + \int^{t_2}_{t_1} \sum \vec{M_O} dt = \vec{H_O}|_2
+		\end{equation}	
+		Com,
+		\begin{equation}
+			\{\vec{H_O}|_1\} = [J_{OXYZ}]\{\omega_1\}
+		\end{equation}
+		\begin{equation}
+			\{\vec{H_O}|_2\} = [J_{OXYZ}]\{\omega_2\}
+		\end{equation}
 
+		
+	\subsection{Princípio do Trabalho-Energia Cinética e Princípio da Conservação da Energia Mecânica para os corpos rígidos}
+	O trabalho realizado por um momento é dado por:
+	\begin{equation}
+		W_{1-2}^T = \int^{\theta_2}_{\theta_1} T d\theta
+	\end{equation}
 
+	O \textbf{Princípio da Conservação da Energia Mecânica} é expresso sob a forma:
+	\begin{equation}
+		T_1 + W_{1-2} = T_2
+	\end{equation}
+	Onde $W_{1-2}$ é a soma dos trabalhos das \textit{forças} e \textit{momentos}.\\
+	
+	Já o \textbf{Princípio da Conservação da Energia Mecânica} para os corpos rígidos é dada por:
+	\begin{equation}
+		T_1 + V_1 = T_2 + V_2
+	\end{equation}
 
+	\subsubsection{Energia Cinética em Corpos Rígidos}
+	A energia cinética em um corpo rígido é dada por:
+	\begin{equation}
+		T = \frac{1}{2}	m\{v_G\}^T\{v_G\} + \frac{1}{2}\{\omega \}^T[J_{G_{x'y'z'}}]\{\omega \}
+	\end{equation}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\section{Momentos de inércia de alguns sólidos de geometria simples}
+	\begin{figure}[h]
+		\center
+		\includegraphics[scale=0.7]{imagens/b2.png} 
+	\end{figure}
+	\begin{figure}[h]
+		\center
+		\includegraphics[scale=0.7]{imagens/b3.png} 
+	\end{figure}
+	\begin{figure}[h]
+		\center
+		\includegraphics[scale=0.7]{imagens/b4.png} 
+	\end{figure}
+	\begin{figure}[h]
+		\center
+		\includegraphics[scale=0.7]{imagens/b5.png} 
+	\end{figure}
 
 
 
