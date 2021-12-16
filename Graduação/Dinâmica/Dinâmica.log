@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.9)  20 NOV 2021 11:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.9)  9 DEC 2021 16:34
 entering extended mode
 **./Dinâmica.tex
 (Dinâmica.tex
@@ -634,34 +634,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 610--612
 
  []
 
-<imagens/b2.png, id=472, 807.015pt x 268.00125pt>
+[20 <./imagens/b1.png>]
+<imagens/b2.png, id=485, 807.015pt x 268.00125pt>
 File: imagens/b2.png Graphic file (type png)
 <use imagens/b2.png>
-Package pdftex.def Info: imagens/b2.png  used on input line 627.
+Package pdftex.def Info: imagens/b2.png  used on input line 632.
 (pdftex.def)             Requested size: 564.90665pt x 187.59958pt.
 
-Overfull \hbox (109.66254pt too wide) in paragraph at lines 627--628
+Overfull \hbox (109.66254pt too wide) in paragraph at lines 632--633
  [] 
  []
 
-[20 <./imagens/b1.png>]
 <imagens/b3.png, id=486, 810.77907pt x 368.1253pt>
 File: imagens/b3.png Graphic file (type png)
 <use imagens/b3.png>
-Package pdftex.def Info: imagens/b3.png  used on input line 631.
+Package pdftex.def Info: imagens/b3.png  used on input line 636.
 (pdftex.def)             Requested size: 567.54149pt x 257.68596pt.
 
-Overfull \hbox (112.29738pt too wide) in paragraph at lines 631--632
+Overfull \hbox (112.29738pt too wide) in paragraph at lines 636--637
  [] 
  []
 
 <imagens/b4.png, id=487, 806.26219pt x 361.35pt>
 File: imagens/b4.png Graphic file (type png)
 <use imagens/b4.png>
-Package pdftex.def Info: imagens/b4.png  used on input line 635.
+Package pdftex.def Info: imagens/b4.png  used on input line 640.
 (pdftex.def)             Requested size: 564.37968pt x 252.94327pt.
 
-Overfull \hbox (109.13557pt too wide) in paragraph at lines 635--636
+Overfull \hbox (109.13557pt too wide) in paragraph at lines 640--641
  [] 
  []
 
@@ -671,10 +671,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <imagens/b5.png, id=488, 809.27344pt x 334.24875pt>
 File: imagens/b5.png Graphic file (type png)
 <use imagens/b5.png>
-Package pdftex.def Info: imagens/b5.png  used on input line 639.
+Package pdftex.def Info: imagens/b5.png  used on input line 644.
 (pdftex.def)             Requested size: 566.48755pt x 233.97252pt.
 
-Overfull \hbox (111.24344pt too wide) in paragraph at lines 639--640
+Overfull \hbox (111.24344pt too wide) in paragraph at lines 644--645
  [] 
  []
 
@@ -687,13 +687,13 @@ Package rerunfilecheck Info: File `Dinâmica.out' has not changed.
 (rerunfilecheck)             Checksum: DCE64716B1F2AF79BE43BB5B210D98CA;15069.
  ) 
 Here is how much of TeX's memory you used:
- 10265 strings out of 478864
- 153105 string characters out of 2848661
+ 10266 strings out of 478864
+ 153118 string characters out of 2848661
  492187 words of memory out of 3000000
  27850 multiletter control sequences out of 15000+600000
  410535 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,10n,66p,814b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,66p,814b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\55189\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/55189/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/55189/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -711,9 +711,9 @@ onts/cm/cmsy10.pfb><C:/Users/55189/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy6.pfb><C:/Users/55189/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/55189/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Dinâmica.pdf (23 pages, 1975749 bytes).
+Output written on Dinâmica.pdf (23 pages, 1979089 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 176 named destinations out of 1000 (max. 500000)
+ 602 PDF objects out of 1000 (max. 8388607)
+ 177 named destinations out of 1000 (max. 500000)
  501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

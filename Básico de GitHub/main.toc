@@ -1,0 +1,11 @@
+\babel@toc {brazilian}{}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Configurações}{5}{0}{2}
+\beamer@sectionintoc {3}{Clone}{7}{0}{3}
+\beamer@sectionintoc {4}{Salvando Alterações}{10}{0}{4}
+\beamer@sectionintoc {5}{Histórico de Commit - Log}{12}{0}{5}
+\beamer@sectionintoc {6}{Ramificações - Branch}{14}{0}{6}
+\beamer@sectionintoc {7}{Voltando para versões anteriores}{19}{0}{7}
+\beamer@sectionintoc {8}{Interações com o GitHub - Pull e Push}{21}{0}{8}
+\beamer@sectionintoc {9}{Tags e Releases}{27}{0}{9}
+\beamer@sectionintoc {10}{Fontes}{33}{0}{10}

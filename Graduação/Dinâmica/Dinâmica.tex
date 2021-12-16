@@ -519,7 +519,7 @@
 		Ao derivar $\{H_O\}$, temos a seguinte relação
 		\begin{equation}
 			\boxed{
-			\sum \{M_O\} = [J_{OX_1Y_1Z_1}]\underbrace{\frac{d\{\omega_1 \}}{dt}|_{Ox1y1z1}}_{\text{a. angular total do corpo rigido}} + \underbrace{\{\omega_2 \}}_{\text{v. do sistema movel}} \times \{H_O\}
+			\sum \{M_O\} = [J_{OX_1Y_1Z_1}]\underbrace{\frac{d\{\omega \}}{dt}|_{Ox1y1z1}}_{\text{a. angular total do corpo rigido}} + \underbrace{\{\dot{\Omega} \}}_{\text{v. do sistema movel}} \times \underbrace{\{H_O\}}_{[J_{OXYZ}]\{\omega\}}
 			}
 		\end{equation}
 		E para as forças
@@ -614,7 +614,12 @@
 	\begin{equation}
 		T_1 + V_1 = T_2 + V_2
 	\end{equation}
-
+	
+	Quando se quer descobrir o trabalho de uma força e/ou momento, e sabe as variações da energia cinética e potencial, temos:
+	\begin{equation}
+		W_{1-2} = \Delta T + \Delta V 
+\end{equation}		
+	
 	\subsubsection{Energia Cinética em Corpos Rígidos}
 	A energia cinética em um corpo rígido é dada por:
 	\begin{equation}
