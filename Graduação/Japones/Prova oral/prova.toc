@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{じこしょうかい}{2}{0}{1}
+\beamer@sectionintoc {2}{折り紙は何ですか}{3}{0}{2}
+\beamer@sectionintoc {3}{Origami no Japão}{5}{0}{3}
+\beamer@sectionintoc {4}{現在}{5}{0}{4}

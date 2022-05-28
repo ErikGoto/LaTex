@@ -1,0 +1,21 @@
+\babel@toc {brazilian}{}
+\contentsline {section}{\numberline {1}Passo a passo para resolver as questões}{2}{section.1}%
+\contentsline {section}{\numberline {2}1 grau de liberdade}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Vibrações livres não amortecidas de 1 grau de liberdade(DOF)}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Molas Equivalentes}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Viga Engastada}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Viga Biapoiada}{3}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Barra em Solicitação Axial}{3}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Molas em Paralelo}{4}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Molas em Série}{4}{subsubsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.3}Sistema Torcional}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Vibrações Livres de Sistema de 1 GDL amortecidas}{5}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Amortecimento Subcrítico(subamortecido)}{5}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Amortecimento Crítico}{5}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Amortecimento Supercrítico(superamortecido)}{5}{subsubsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.5}Decremento Logarítimico}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Amortecimento de Coulomb}{6}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Vibrações forçadas - 1 DOF não amortecido (excitação harmônica)}{6}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Vibrações forçadas - 1 DOF amortecimento viscoso (excitação harmônica)}{7}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Desbalanceamento Rotativo}{9}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Transmissibilidade}{9}{subsection.2.10}%
