@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.10)  27 MAY 2022 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.10)  3 JUL 2022 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -404,64 +404,140 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./FabMet.tocpdfTeX warnin
-g (ext4): destination with the same identifier (name{page.1}) has been already 
-used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.31 ...estimento do eletrodo?}{7}{subsection.2.8}
-                                                  % [1])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./FabMet.toc)
 \tf@toc=\write4
 \openout4 = `FabMet.toc'.
 
- [2] [3] [4]
-Overfull \hbox (8.43216pt too wide) in paragraph at lines 94--94
-[]\OT1/cmr/bx/n/14.4 Quais ti-pos de m^^Saquinas s~ao usa-dos na fundi^^Xc~ao s
-ob press~ao? 
- []
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.34 \newpage
+              [1]
+<imagens/a.jpeg, id=45, 266.9975pt x 190.7125pt>
+File: imagens/a.jpeg Graphic file (type jpg)
+<use imagens/a.jpeg>
+Package pdftex.def Info: imagens/a.jpeg  used on input line 66.
+(pdftex.def)             Requested size: 133.49841pt x 95.356pt.
 
-[5]
-Overfull \hbox (21.36699pt too wide) in paragraph at lines 140--140
-[]\OT1/cmr/bx/n/14.4 Quais as van-ta-gens da cor-rente al-ter-nada e da cor-ren
-te cont^^S^^Pnua
- []
 
-[6]
-<imagens/a.png, id=214, 753.5653pt x 188.95593pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+<imagens/a.png, id=53, 498.36188pt x 259.7203pt>
 File: imagens/a.png Graphic file (type png)
 <use imagens/a.png>
-Package pdftex.def Info: imagens/a.png  used on input line 154.
-(pdftex.def)             Requested size: 376.78172pt x 94.47772pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
- [7 <./imagens/a.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
+Package pdftex.def Info: imagens/a.png  used on input line 75.
+(pdftex.def)             Requested size: 249.18033pt x 129.85983pt.
+<imagens/a1.png, id=54, 508.90125pt x 268.75406pt>
+File: imagens/a1.png Graphic file (type png)
+<use imagens/a1.png>
+Package pdftex.def Info: imagens/a1.png  used on input line 81.
+(pdftex.def)             Requested size: 254.45pt x 134.3767pt.
+<imagens/a2.png, id=55, 453.19313pt x 246.9225pt>
+File: imagens/a2.png Graphic file (type png)
+<use imagens/a2.png>
+Package pdftex.def Info: imagens/a2.png  used on input line 89.
+(pdftex.def)             Requested size: 226.59601pt x 123.46094pt.
+ [3 <./imagens/a.jpeg> <./imagens/a.png (PNG copy)> <./imagens/a1.png (PNG copy
+)>]
+<imagens/a3.png, id=71, 425.33907pt x 262.73157pt>
+File: imagens/a3.png Graphic file (type png)
+<use imagens/a3.png>
+Package pdftex.def Info: imagens/a3.png  used on input line 97.
+(pdftex.def)             Requested size: 212.669pt x 131.36545pt.
+<imagens/a4.png, id=72, 464.4853pt x 256.70906pt>
+File: imagens/a4.png Graphic file (type png)
+<use imagens/a4.png>
+Package pdftex.def Info: imagens/a4.png  used on input line 103.
+(pdftex.def)             Requested size: 232.24208pt x 128.3542pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./imagens/a2.png (PNG copy)> <./imagens/a3.png (PNG copy)>]
+<imagens/a5.png, id=85, 400.49625pt x 155.07938pt>
+File: imagens/a5.png Graphic file (type png)
+<use imagens/a5.png>
+Package pdftex.def Info: imagens/a5.png  used on input line 119.
+(pdftex.def)             Requested size: 200.24763pt x 77.53949pt.
+<imagens/a6.png, id=86, 395.22656pt x 254.45062pt>
+File: imagens/a6.png Graphic file (type png)
+<use imagens/a6.png>
+Package pdftex.def Info: imagens/a6.png  used on input line 125.
+(pdftex.def)             Requested size: 197.6128pt x 127.22499pt.
+<imagens/a7.png, id=87, 353.06906pt x 204.01219pt>
+File: imagens/a7.png Graphic file (type png)
+<use imagens/a7.png>
+Package pdftex.def Info: imagens/a7.png  used on input line 131.
+(pdftex.def)             Requested size: 176.53409pt x 102.00584pt.
+ [5 <./imagens/a4.png (PNG copy)> <./imagens/a5.png (PNG copy)> <./imagens/a6.p
+ng (PNG copy)>]
+<imagens/a8.png, id=98, 210.03468pt x 265.74281pt>
+File: imagens/a8.png Graphic file (type png)
+<use imagens/a8.png>
+Package pdftex.def Info: imagens/a8.png  used on input line 142.
+(pdftex.def)             Requested size: 105.01707pt x 132.87108pt.
+
+[6 <./imagens/a7.png (PNG copy)> <./imagens/a8.png (PNG copy)>]
+Overfull \hbox (31.74112pt too wide) in paragraph at lines 166--167
+[]\OT1/cmr/m/n/12 Em cima da pa-nela con-tendo o me-tal ^^Se posto o molde e fe
+-chado por press~ao hidr^^Saulica(I/II); 
+ []
+
+<imagens/9.png, id=113, 532.99126pt x 223.58531pt>
+File: imagens/9.png Graphic file (type png)
+<use imagens/9.png>
+Package pdftex.def Info: imagens/9.png  used on input line 174.
+(pdftex.def)             Requested size: 266.49498pt x 111.79237pt.
+[7 <./imagens/9.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+
+Overfull \hbox (20.0687pt too wide) in paragraph at lines 186--187
+[]\OT1/cmr/m/n/12 TELECURSO 2000. Curso Pro-fis-si-o-na-li-zante Mec^anica - Pr
+o-ces-sos de Fa-brica^^Xc~ao(Teleaula
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
  (./FabMet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `FabMet.out' has not changed.
-(rerunfilecheck)             Checksum: B79674D3FCED79E95874FE3000DB6B38;4347.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
+(rerunfilecheck)             Checksum: FCCF5FECC7A0D1D9A3EE6B74CE33D80F;411.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
- 7067 strings out of 481239
- 105626 string characters out of 5920377
- 394456 words of memory out of 5000000
- 22160 multiletter control sequences out of 15000+600000
- 538257 words of font info for 44 fonts, out of 8000000 for 9000
+ 7121 strings out of 481239
+ 106029 string characters out of 5920377
+ 389456 words of memory out of 5000000
+ 22193 multiletter control sequences out of 15000+600000
+ 539046 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,30p,445b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,30p,520b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on FabMet.pdf (8 pages, 157895 bytes).
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on FabMet.pdf (9 pages, 2139403 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 243 compressed objects within 3 object streams
- 41 named destinations out of 1000 (max. 500000)
- 254 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
